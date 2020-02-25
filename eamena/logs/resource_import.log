@@ -1,0 +1,2 @@
+Fri Feb 14 04:36:47 2020 WARNING: Name is null or not mapped on rows 2 and                                 participates in a display value function.
+Fri Feb 14 04:36:47 2020 WARNING: No resource created for legacyid: 54be1d5e-467b-11ea-9989-06f597a7d5ce. Make sure there is data to be imported                     for this resource and it is mapped properly in your mapping file.
