@@ -3,7 +3,7 @@ eamena/media/packages
 eamena/logs/*.log
 eamena/uploadedfiles
 eamena/ontologies/*.xml
-arches.log
+eamena/arches.log
 *.sublime*
 eamena/settings_local.py
 .DS_Store
