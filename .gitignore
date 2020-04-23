@@ -1,0 +1,13 @@
+*.pyc
+eamena/media/packages
+eamena/logs/*.log
+eamena/uploadedfiles
+eamena/ontologies/*.xml
+eamena/arches.log
+*.sublime*
+eamena/settings_local.py
+.DS_Store
+*.djcache
+eamena/node_modules
+.vscode/
+Procfile
