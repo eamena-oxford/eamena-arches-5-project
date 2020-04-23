@@ -1,0 +1,366 @@
+{
+    "graph": [
+        {
+            "author": "", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "cc4a07b9-f98b-11e9-b345-06f597a7d5ce", 
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea", 
+                    "config": null, 
+                    "cssclass": null, 
+                    "description": "", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Measurements", 
+                    "nodegroup_id": "cc4a07b7-f98b-11e9-b345-06f597a7d5ce", 
+                    "sortorder": 7, 
+                    "visible": false
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "cc4a07b6-f98b-11e9-b345-06f597a7d5ce", 
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea", 
+                    "config": null, 
+                    "cssclass": null, 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Measurement", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "color": "rgba(171,67,67,1)", 
+            "config": {
+                "activeTabIndex": 0, 
+                "tabs": [
+                    {
+                        "icon": "fa fa-adjust", 
+                        "name": "", 
+                        "nodegroup_ids": []
+                    }, 
+                    {
+                        "icon": "fa fa-align-center", 
+                        "name": "tab 1 ", 
+                        "nodegroup_ids": []
+                    }
+                ]
+            }, 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07ca-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by", 
+                    "rangenode_id": "cc4a07bc-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07bc-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07c8-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit", 
+                    "rangenode_id": "cc4a07ba-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07bb-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07c4-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in", 
+                    "rangenode_id": "cc4a07c1-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07be-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07c5-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in", 
+                    "rangenode_id": "cc4a07bd-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07ba-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07c6-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in", 
+                    "rangenode_id": "cc4a07c0-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07bc-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07c7-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value", 
+                    "rangenode_id": "cc4a07bf-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07b7-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07c9-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P39i_was_measured_by", 
+                    "rangenode_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07c2-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by", 
+                    "rangenode_id": "cc4a07be-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "cc4a07bc-f98b-11e9-b345-06f597a7d5ce", 
+                    "edgeid": "cc4a07c3-f98b-11e9-b345-06f597a7d5ce", 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "cc4a07bb-f98b-11e9-b345-06f597a7d5ce"
+                }
+            ], 
+            "functions_x_graphs": [], 
+            "graphid": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+            "iconclass": "fa fa-thumb-tack", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "jsonldcontext": null, 
+            "name": "Measurements", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "parentnodegroup_id": "cc4a07b7-f98b-11e9-b345-06f597a7d5ce"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "cc4a07b7-f98b-11e9-b345-06f597a7d5ce", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Dimension ", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07bc-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Measurement", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P39i_was_measured_by", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "number", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Measurement Number", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07bf-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E60_Number", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P90_has_value", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "84fd6f0d-4a17-48c1-b05a-d27d89afd612"
+                    }, 
+                    "datatype": "concept", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Measurement Source Type ", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07be-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "747538ac-3e48-4f2c-9dce-66eb4f30b624"
+                    }, 
+                    "datatype": "concept", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Dimension Type", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07bb-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Measurement Unit Authority Document ", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07c0-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Dimension Type Authority Document", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07c1-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Measurements", 
+                    "nodegroup_id": "cc4a07b7-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07b7-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement", 
+                    "parentproperty": "", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Measurement Source Type Authority Document", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07bd-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "fbda644f-c979-4141-a750-744c132f248b"
+                    }, 
+                    "datatype": "concept", 
+                    "description": null, 
+                    "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Measurement Unit", 
+                    "nodegroup_id": "cc4a07b4-f98b-11e9-b345-06f597a7d5ce", 
+                    "nodeid": "cc4a07ba-f98b-11e9-b345-06f597a7d5ce", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E58_Measurement_Unit", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P91_has_unit", 
+                    "sortorder": 0
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": null, 
+                "datatype": "semantic", 
+                "description": null, 
+                "graph_id": "cc4a07b3-f98b-11e9-b345-06f597a7d5ce", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Measurements", 
+                "nodegroup_id": "cc4a07b7-f98b-11e9-b345-06f597a7d5ce", 
+                "nodeid": "cc4a07b7-f98b-11e9-b345-06f597a7d5ce", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement", 
+                "sortorder": 0
+            }, 
+            "slug": null, 
+            "subtitle": "", 
+            "template_id": "50000000-0000-0000-0000-000000000001", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.14 on x86_64-pc-linux-gnu (Ubuntu 9.6.14-1.pgdg18.04+1), compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit", 
+        "git hash": "01690e963 2020-01-09 13:56:05 +0000", 
+        "os": "Linux", 
+        "os version": "4.15.0-1057-aws"
+    }
+}
