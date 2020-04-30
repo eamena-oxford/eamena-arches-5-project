@@ -347,7 +347,7 @@
                                     form: self.form,
                                     config: widget.configJSON,
                                     label: widget.label(),
-                                    value: self.data()[$parentContext.$index()], // self.tile.data[widget.node_id()]
+                                    value: self.data()[$parentContext.$index()], // value: self.data()[(($parentContext.$index() * 10) + $index())], // self.tile.data[widget.node_id()]
                                     node: self.form.nodeLookup[widget.node_id()],
                                     expanded: self.expanded,
                                     graph: self.form.graph,
@@ -365,7 +365,9 @@
                         <div class="install-buttons pull-right">
                
                             <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: function() {
+
 self.saveValue($index);
+
 			    };, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Add'  %}
                             </button>
                    

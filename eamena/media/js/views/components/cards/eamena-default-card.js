@@ -10,18 +10,48 @@ define([
         this.expanded = ko.observable(true);
         this.data = ko.observableArray();
 
-	for(i = 0; i < 100; i++) { this.data.push(ko.observable('')); } // hacky
+        if(this.form)
+        {
+            for(i = 0; i < this.form.addableCards().length; i++)
+            {
+                self.data.push(ko.observable());
+            }
+        }
 
         this.saveValue = function(arg)
         {
             var index = arg();
-            var tiles = this.card.tiles()[0].cards[index].tiles();
+            var savevalue = this.data()[index]();
+            var atile = this.card.tiles()[0];
+            // At this point, if atile is undefined, we need to create it.
+            if(atile == null)
+            {
+                var topcard = this.card; // Explicitly set this here so the callback can access it
+                self.tile.save(null, function(tileData) {
 
+                    var newcard = topcard.tiles()[0].cards[index];
+                    var newtile = newcard.getNewTile();
+                    var keys = Object.keys(newtile.data);
+                    for(i = 0; i < keys.length; i++)
+                    {
+                        if(keys[i].startsWith('_')) { continue; }
+                        newtile.data[keys[i]] = savevalue;
+                    }
+                    newtile.save(null, function(created){ newcard.parent.selected(true); });
+		});
+            } else {
 
-            var newtile = this.card.tiles()[0].cards[index].getNewTile();
-            var dataid = newtile.nodegroup_id;
-            newtile.data[dataid] = this.data()[index]();
-            newtile.save();
+                var newcard = this.card.tiles()[0].cards[index];
+                var newtile = newcard.getNewTile();
+                var keys = Object.keys(newtile.data);
+                for(i = 0; i < keys.length; i++)
+                {
+                    if(keys[i].startsWith('_')) { continue; }
+                    newtile.data[keys[i]] = savevalue;
+                }
+
+                newtile.save(null, function(created){ newcard.parent.selected(true); });
+            }
         };
 
         params.configKeys = ['selectSource', 'selectSourceLayer'];
