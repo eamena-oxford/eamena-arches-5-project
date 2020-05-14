@@ -5,27 +5,41 @@ define([
 
     var viewModel = function(params) {
         var self = this;
+
+        this.state = params.state || 'form';
+        this.preview = params.preview;
+        this.loading = params.loading || ko.observable(false);
+        this.provisionalTileViewModel = params.provisionalTileViewModel;
+
         this.card = params.card;
         this.form = params.form;
         this.expanded = ko.observable(true);
-        this.data = ko.observableArray();
+        this.values = ko.observableArray();
 
-        if(this.form)
+        // We check for the addableCards method here because it only exists in resource edit mode.
+        // If we let the following for loop run unchecked while in (for example) card designer mode,
+        // this function will stop mid-way through, causing all sorts of horrible HTML errors during
+        // rendering.
+        if(this.form && (this.state === 'form') && this.form.addableCards)
         {
-            for(i = 0; i < this.form.addableCards().length; i++)
+            // This loop simply fills the 'values' array with enough observable values for the number
+            // of widgets we're going to render.
+            for(i = 0; i <= this.form.addableCards().length; i++)
             {
-                self.data.push(ko.observable());
+                self.values.push(ko.observable());
             }
         }
 
         this.saveValue = function(arg)
         {
             var index = arg();
-            var savevalue = this.data()[index]();
+            var savevalue = this.values()[index]();
             var atile = this.card.tiles()[0];
-            // At this point, if atile is undefined, we need to create it.
+            // At this point, if atile is undefined, we need to create it. There is almost certainly a more
+            // efficient way of doing this, but this works well for now.
             if(atile == null)
             {
+                // This code block runs if there are no nodes created
                 var topcard = this.card; // Explicitly set this here so the callback can access it
                 self.tile.save(null, function(tileData) {
 
@@ -45,7 +59,7 @@ define([
                     newtile.save(null, function(created){ newcard.parent.selected(true); });
 		});
             } else {
-
+                // This code block runs if there is a node, and we are just adding a value to it
                 var newcard = this.card.tiles()[0].cards[index];
                 var newtile = newcard.getNewTile();
                 var keys = Object.keys(newtile.data);
