@@ -35,7 +35,12 @@ define([
                     for(i = 0; i < keys.length; i++)
                     {
                         if(keys[i].startsWith('_')) { continue; }
-                        newtile.data[keys[i]] = savevalue;
+                        if(typeof newtile.data[keys[i]] === "function")
+                        {
+                            newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
+                        } else {
+                            newtile.data[keys[i]] = savevalue; // It's not an observable, so just set it.
+                        }
                     }
                     newtile.save(null, function(created){ newcard.parent.selected(true); });
 		});
@@ -47,7 +52,12 @@ define([
                 for(i = 0; i < keys.length; i++)
                 {
                     if(keys[i].startsWith('_')) { continue; }
-                    newtile.data[keys[i]] = savevalue;
+                    if(typeof newtile.data[keys[i]] === "function")
+                    {
+                        newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
+                    } else {
+                        newtile.data[keys[i]] = savevalue; // It's not an observable, so just set it.
+                    }
                 }
 
                 newtile.save(null, function(created){ newcard.parent.selected(true); });
