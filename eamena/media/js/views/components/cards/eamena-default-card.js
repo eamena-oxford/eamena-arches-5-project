@@ -15,7 +15,7 @@ define([
         this.form = params.form;
         this.expanded = ko.observable(true);
         this.values = ko.observableArray();
-        this.mapping = [];
+        this.uimapping = [];
 
         // We check for the addableCards method here because it only exists in resource edit mode.
         // If we let the following for loop run unchecked while in (for example) card designer mode,
@@ -25,18 +25,18 @@ define([
         {
             // This loop simply fills the 'values' array with enough observable values for the number
             // of widgets we're going to render.
-            k = 0;
-            for(i = 0; i <= this.form.addableCards().length; i++)
+            var k = 0;
+            for(i = 0; i <= this.card.cards().length; i++)
             {
-                var card = this.form.addableCards()[i];
+                var card = this.card.cards()[i];
                 if(card)
                 {
-                    this.mapping[i] = [];
+                    self.uimapping[i] = [];
                     var c = card.widgets().length;
                     for(j = 0; j < c; j++)
                     {
                         self.values.push(ko.observable(""));
-                        this.mapping[i][j] = k;
+                        self.uimapping[i][j] = k;
                         k++;
                     }
                 }
@@ -54,13 +54,13 @@ define([
         // can have multiple values per tile.
         this.mapValue = function(i, j)
         {
-            return(this.mapping[i][j]);
+            return(self.uimapping[i][j]);
         }
 
         this.saveValue = function(arg)
         {
             var index = arg();
-            var valueindex = this.mapping[index];
+            var valueindex = self.uimapping[index];
             var savevalues = []
             var atile = this.card.tiles()[0];
 
