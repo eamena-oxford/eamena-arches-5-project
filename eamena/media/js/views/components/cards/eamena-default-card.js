@@ -15,6 +15,7 @@ define([
         this.form = params.form;
         this.expanded = ko.observable(true);
         this.values = ko.observableArray();
+        this.mapping = [];
 
         // We check for the addableCards method here because it only exists in resource edit mode.
         // If we let the following for loop run unchecked while in (for example) card designer mode,
@@ -24,17 +25,50 @@ define([
         {
             // This loop simply fills the 'values' array with enough observable values for the number
             // of widgets we're going to render.
+            k = 0;
             for(i = 0; i <= this.form.addableCards().length; i++)
             {
-                self.values.push(ko.observable());
+                var card = this.form.addableCards()[i];
+                if(card)
+                {
+                    this.mapping[i] = [];
+                    var c = card.widgets().length;
+                    for(j = 0; j < c; j++)
+                    {
+                        self.values.push(ko.observable(""));
+                        this.mapping[i][j] = k;
+                        k++;
+                    }
+                }
             }
+        }
+
+        // Ths purpose of the mapValue function is to assign a single numerical value for an
+        // element in an observableArray, based on the tile (i) and widget (j) displayed on
+        // the card. Each widget (of which there may be one or many per tile) needs its own
+        // observable value, but we don't know at HTML render time how many widgets the
+        // previous tile had, and therefore we can't keep track of our array index. Things
+        // would be simpler if we could do 2D arrays in KnockOut, but I've not figured out
+        // how to do that. So this function, local to this class, which of course knows how
+        // many widgets each tile needs, is used to keep track of the array index, so we
+        // can have multiple values per tile.
+        this.mapValue = function(i, j)
+        {
+            return(this.mapping[i][j]);
         }
 
         this.saveValue = function(arg)
         {
             var index = arg();
-            var savevalue = this.values()[index]();
+            var valueindex = this.mapping[index];
+            var savevalues = []
             var atile = this.card.tiles()[0];
+
+            for(i = 0; i < valueindex.length; i++)
+            {
+                savevalues[i] = this.values()[valueindex[i]]();
+            }
+
             // At this point, if atile is undefined, we need to create it. There is almost certainly a more
             // efficient way of doing this, but this works well for now.
             if(atile == null)
@@ -46,14 +80,20 @@ define([
                     var newcard = topcard.tiles()[0].cards[index];
                     var newtile = newcard.getNewTile();
                     var keys = Object.keys(newtile.data);
+                    var value_id = 0;
+                    var savevalue = savevalues[value_id];
                     for(i = 0; i < keys.length; i++)
                     {
                         if(keys[i].startsWith('_')) { continue; }
                         if(typeof newtile.data[keys[i]] === "function")
                         {
                             newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
+                            value_id++;
+                            savevalue = savevalues[value_id];
                         } else {
                             newtile.data[keys[i]] = savevalue; // It's not an observable, so just set it.
+                            value_id++;
+                            savevalue = savevalues[value_id];
                         }
                     }
                     newtile.save(null, function(created){ newcard.parent.selected(true); });
@@ -63,14 +103,20 @@ define([
                 var newcard = this.card.tiles()[0].cards[index];
                 var newtile = newcard.getNewTile();
                 var keys = Object.keys(newtile.data);
+                var value_id = 0;
+                var savevalue = savevalues[value_id];
                 for(i = 0; i < keys.length; i++)
                 {
                     if(keys[i].startsWith('_')) { continue; }
                     if(typeof newtile.data[keys[i]] === "function")
                     {
                         newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
+                        value_id++;
+                        savevalue = savevalues[value_id];
                     } else {
                         newtile.data[keys[i]] = savevalue; // It's not an observable, so just set it.
+                        value_id++;
+                        savevalue = savevalues[value_id];
                     }
                 }
 

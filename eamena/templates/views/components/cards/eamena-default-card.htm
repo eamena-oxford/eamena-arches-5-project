@@ -347,7 +347,7 @@
                                     form: self.form,
                                     config: widget.configJSON,
                                     label: widget.label(),
-                                    value: self.values()[$parentContext.$index()],
+                                    value: self.values()[self.mapValue($parentContext.$index(), $index())],
                                     node: self.form.nodeLookup[widget.node_id()],
                                     expanded: self.expanded,
                                     graph: self.form.graph,
