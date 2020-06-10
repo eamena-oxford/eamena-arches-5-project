@@ -320,7 +320,13 @@
             <ul class="card-summary-section" data-bind="css: {disabled: !tile.tileid}">
                 <!-- ko foreach: { data: tile.cards, as: 'card' } -->
 
+                    <!-- EAMENA DEV STARTS -->
+
+<!-- ko if: !self.preview -->
+
                 <hr size="1"/>
+
+<!-- /ko -->
 
                 <li class="card-summary" data-bind="visible: card.model.visible()">
                     <a href="javascript:void(0)" data-bind="click: function () {
@@ -332,6 +338,16 @@
 
                     <!-- EAMENA DEV STARTS -->
 
+<!-- ko if: self.preview -->
+
+                    <!-- EAMENA DEV ENDS -->
+
+                        <h4 class="card-summary-name">
+                            <span data-bind="text: card.model.name"></span>
+                        </h4>
+
+<!-- /ko -->
+<!-- ko if: !self.preview -->
                     <form class="widgets" style="margin-bottom: 2em;">
 
 
@@ -359,18 +375,20 @@
                     }, event: { mouseover: function(){ if (self.preview){widget.hovered(true) } }, mouseout: function(){ if (self.preview){widget.hovered(null)} } }, visible: widget.visible'>
 
                             </div>
-            
+
                         </div>
 
                         <div class="install-buttons pull-right">
-               
+
                             <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: function() { self.saveValue($index); };, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Add'  %}</button>
-                   
+
                         </div>
 
 
                     </form>
-         
+
+<!-- /ko -->
+
                     <!-- EAMENA DEV ENDS -->
 
                     <ul class="tile-summary-item" data-bind="foreach: {
@@ -533,3 +551,4 @@
 <!-- /ko -->
 
 <!-- /ko -->
+
