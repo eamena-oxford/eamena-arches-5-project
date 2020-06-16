@@ -265,7 +265,7 @@
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
-            "name": "Geoarchaeology/Palaeolandscapes",
+            "name": "Geoarchaeology",
             "nodegroups": [
                 {
                     "cardinality": "1",
@@ -289,24 +289,6 @@
             "nodes": [
                 {
                     "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "GEOARCH_ID",
-                    "graph_id": "e78db0d5-7fcb-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "GEOARCH ID",
-                    "nodegroup_id": "a4d63510-8a3c-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "a4d63510-8a3c-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -316,7 +298,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": true,
-                    "name": "Geoarchaeology/Palaeolandscapes",
+                    "name": "Geoarchaeology",
                     "nodegroup_id": null,
                     "nodeid": "e78db0d4-7fcb-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP2_Phenomenal_Place",
@@ -339,6 +321,24 @@
                     "nodeid": "38a34c66-7fe7-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S4_Observation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "GEOARCH_ID",
+                    "graph_id": "e78db0d5-7fcb-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "GEOARCH ID",
+                    "nodegroup_id": "a4d63510-8a3c-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "a4d63510-8a3c-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
                 {
@@ -470,22 +470,22 @@
                 "isrequired": false,
                 "issearchable": true,
                 "istopnode": true,
-                "name": "Geoarchaeology/Palaeolandscapes",
+                "name": "Geoarchaeology",
                 "nodegroup_id": null,
                 "nodeid": "e78db0d4-7fcb-11ea-a6a6-02e7594ce0a0",
                 "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP2_Phenomenal_Place",
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": "Geoarchaeology/Palaeolandscapes",
             "template_id": "50000000-0000-0000-0000-000000000001",
             "version": ""
         }
     ],
     "metadata": {
         "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "git hash": "ba015a40c 2020-04-30 19:11:55 +0000",
         "os": "Linux",
-        "os version": "4.15.0-1065-aws"
+        "os version": "5.3.0-1023-aws"
     }
 }

@@ -107,33 +107,6 @@
             "edges": [
                 {
                     "description": null,
-                    "domainnode_id": "7f22943e-74ca-11ea-b4d0-02e7594ce0a0",
-                    "edgeid": "7f229443-74ca-11ea-b4d0-02e7594ce0a0",
-                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in",
-                    "rangenode_id": "7f229442-74ca-11ea-b4d0-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "7f22943b-74ca-11ea-b4d0-02e7594ce0a0",
-                    "edgeid": "7f229444-74ca-11ea-b4d0-02e7594ce0a0",
-                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
-                    "rangenode_id": "7f22943f-74ca-11ea-b4d0-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "7f22943f-74ca-11ea-b4d0-02e7594ce0a0",
-                    "edgeid": "7f229445-74ca-11ea-b4d0-02e7594ce0a0",
-                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
-                    "rangenode_id": "7f229440-74ca-11ea-b4d0-02e7594ce0a0"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "7f22943b-74ca-11ea-b4d0-02e7594ce0a0",
                     "edgeid": "7f229446-74ca-11ea-b4d0-02e7594ce0a0",
                     "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
@@ -152,12 +125,39 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "7f22943e-74ca-11ea-b4d0-02e7594ce0a0",
+                    "edgeid": "7f229443-74ca-11ea-b4d0-02e7594ce0a0",
+                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in",
+                    "rangenode_id": "7f229442-74ca-11ea-b4d0-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7f22943b-74ca-11ea-b4d0-02e7594ce0a0",
+                    "edgeid": "7f229444-74ca-11ea-b4d0-02e7594ce0a0",
+                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "7f22943f-74ca-11ea-b4d0-02e7594ce0a0"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "0bc38a22-74c9-11ea-b4d0-02e7594ce0a0",
                     "edgeid": "7f229448-74ca-11ea-b4d0-02e7594ce0a0",
                     "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by",
                     "rangenode_id": "7f22943b-74ca-11ea-b4d0-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "7f22943f-74ca-11ea-b4d0-02e7594ce0a0",
+                    "edgeid": "7f229445-74ca-11ea-b4d0-02e7594ce0a0",
+                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "7f229440-74ca-11ea-b4d0-02e7594ce0a0"
                 },
                 {
                     "description": null,
@@ -382,8 +382,8 @@
     ],
     "metadata": {
         "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "git hash": "ba015a40c 2020-04-30 19:11:55 +0000",
         "os": "Linux",
-        "os version": "4.15.0-1065-aws"
+        "os version": "5.3.0-1023-aws"
     }
 }

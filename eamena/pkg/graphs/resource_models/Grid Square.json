@@ -295,8 +295,8 @@
     ],
     "metadata": {
         "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "git hash": "ba015a40c 2020-04-30 19:11:55 +0000",
         "os": "Linux",
-        "os version": "4.15.0-1065-aws"
+        "os version": "5.3.0-1023-aws"
     }
 }

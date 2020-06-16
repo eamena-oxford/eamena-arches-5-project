@@ -3162,7 +3162,7 @@
             ],
             "graphid": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
             "iconclass": "fa fa-pencil-square-o",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -3217,16 +3217,16 @@
                     "parentnodegroup_id": "8f90a6c6-80dd-11ea-a6a6-02e7594ce0a0"
                 },
                 {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "8f90a6bd-80dd-11ea-a6a6-02e7594ce0a0",
-                    "parentnodegroup_id": "8f90a6c6-80dd-11ea-a6a6-02e7594ce0a0"
-                },
-                {
                     "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "8f90a6c6-80dd-11ea-a6a6-02e7594ce0a0",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "8f90a6bd-80dd-11ea-a6a6-02e7594ce0a0",
+                    "parentnodegroup_id": "8f90a6c6-80dd-11ea-a6a6-02e7594ce0a0"
                 },
                 {
                     "cardinality": "n",
@@ -3477,6 +3477,24 @@
                     "sortorder": 0
                 },
                 {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Related Heritage Places",
+                    "nodegroup_id": "8f90a6c6-80dd-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "8f90a6c6-80dd-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 8
+                },
+                {
                     "config": {
                         "addToMap": false,
                         "advancedStyle": "",
@@ -3685,24 +3703,6 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E49_Time_Appellation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P78_is_identified_by",
                     "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Related Heritage Places",
-                    "nodegroup_id": "8f90a6c6-80dd-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "8f90a6c6-80dd-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "sortorder": 8
                 },
                 {
                     "config": {
@@ -4980,6 +4980,24 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
+                    "name": "Disturbance Cause Assignment",
+                    "nodegroup_id": "52bb1e74-fbea-11e9-b345-06f597a7d5ce",
+                    "nodeid": "52bb1e81-fbea-11e9-b345-06f597a7d5ce",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
                     "name": "Damage Effect Observation Assessor",
                     "nodegroup_id": "52bb1e71-fbea-11e9-b345-06f597a7d5ce",
                     "nodeid": "52bb1e7b-fbea-11e9-b345-06f597a7d5ce",
@@ -5077,24 +5095,6 @@
                     "nodeid": "52bb1e8a-fbea-11e9-b345-06f597a7d5ce",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Disturbance Cause Assignment",
-                    "nodegroup_id": "52bb1e74-fbea-11e9-b345-06f597a7d5ce",
-                    "nodeid": "52bb1e81-fbea-11e9-b345-06f597a7d5ce",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by",
                     "sortorder": 0
                 },
                 {
@@ -6180,8 +6180,8 @@
     ],
     "metadata": {
         "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "fatal: not a git repository (or any of the parent directories): .git",
+        "git hash": "ba015a40c 2020-04-30 19:11:55 +0000",
         "os": "Linux",
-        "os version": "4.15.0-1065-aws"
+        "os version": "5.3.0-1023-aws"
     }
 }
