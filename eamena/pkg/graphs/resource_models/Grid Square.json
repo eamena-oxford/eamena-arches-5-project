@@ -6,8 +6,15 @@
                 {
                     "active": true,
                     "cardid": "b3628db2-742d-11ea-b4d0-02e7594ce0a0",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "centerX": 28.35335107798743,
+                        "centerY": 22.755462232985128,
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": 3
+                    },
                     "constraints": [
                         {
                             "card_id": "b3628db2-742d-11ea-b4d0-02e7594ce0a0",
@@ -170,7 +177,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
-                    "id": "e7928dff-7434-11ea-b4d0-02e7594ce0a0"
+                    "id": "a09542e7-afda-11ea-9b1f-02e7594ce0a0"
                 }
             ],
             "graphid": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
@@ -268,7 +275,10 @@
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
-            "relatable_resource_model_ids": [],
+            "relatable_resource_model_ids": [
+                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "07ea0e1a-8e16-11ea-a6a6-02e7594ce0a0"
+            ],
             "resource_2_resource_constraints": [],
             "root": {
                 "config": null,
@@ -288,14 +298,14 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "",
+            "subtitle": "EAMENA Grid Square IDs",
             "template_id": "50000000-0000-0000-0000-000000000002",
             "version": ""
         }
     ],
     "metadata": {
         "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "ba015a40c 2020-04-30 19:11:55 +0000",
+        "git hash": "9a73be88b 2020-06-16 10:18:07 +0100",
         "os": "Linux",
         "os version": "5.3.0-1023-aws"
     }
