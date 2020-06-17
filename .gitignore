@@ -12,3 +12,4 @@ eamena/settings_local.py
 eamena/node_modules
 .vscode/
 Procfile
+eamena/management/commands/addusers.py
