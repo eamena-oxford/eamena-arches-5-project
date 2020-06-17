@@ -4,6 +4,7 @@ eamena/logs/*.log
 eamena/uploadedfiles
 eamena/ontologies/*.xml
 eamena/arches.log
+eamena/static/*
 *.sublime*
 eamena/settings_local.py
 .DS_Store

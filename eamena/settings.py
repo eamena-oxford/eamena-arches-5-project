@@ -14,6 +14,8 @@ except ImportError:
 APP_NAME = 'eamena'
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
+STATIC_ROOT = os.path.join(APP_ROOT, 'static')
+STATIC_URL = '/static/'
 
 DATATYPE_LOCATIONS.append('eamena.datatypes')
 FUNCTION_LOCATIONS.append('eamena.functions')
@@ -28,7 +30,7 @@ LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
 SECRET_KEY = '^e5_+v3hjvzsopdq#qg838rsf=b66+0jme$l12pe03)6)u)dzx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ROOT_URLCONF = 'eamena.urls'
 
@@ -91,7 +93,7 @@ ALLOWED_HOSTS = ['34.245.67.171', '172.31.13.226']
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'eamena.wsgi.application'
-STATIC_ROOT = '/var/www/media'
+#STATIC_ROOT = '/var/www/media'
 
 RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
 
