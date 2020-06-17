@@ -13,3 +13,4 @@ eamena/node_modules
 .vscode/
 Procfile
 eamena/management/commands/addusers.py
+eamena/__pycache__
