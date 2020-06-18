@@ -103,7 +103,7 @@
             "config": {},
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": "Organizational or National Designations",
             "edges": [
                 {
                     "description": null,
@@ -188,7 +188,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
-                    "id": "a96ea05b-afda-11ea-9b1f-02e7594ce0a0"
+                    "id": "8be3ff16-b164-11ea-9b1f-02e7594ce0a0"
                 }
             ],
             "graphid": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
@@ -207,6 +207,42 @@
                 }
             ],
             "nodes": [
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Designation Type Authority Document",
+                    "nodegroup_id": "7f22943b-74ca-11ea-b4d0-02e7594ce0a0",
+                    "nodeid": "7f229442-74ca-11ea-b4d0-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Designation Name",
+                    "nodegroup_id": "7f22943b-74ca-11ea-b4d0-02e7594ce0a0",
+                    "nodeid": "deffc2f8-74cd-11ea-b4d0-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by",
+                    "sortorder": 0
+                },
                 {
                     "config": null,
                     "datatype": "semantic",
@@ -306,24 +342,6 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Designation Type Authority Document",
-                    "nodegroup_id": "7f22943b-74ca-11ea-b4d0-02e7594ce0a0",
-                    "nodeid": "7f229442-74ca-11ea-b4d0-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E32_Authority_Document",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P71i_is_listed_in",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
@@ -334,30 +352,12 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E65_Creation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P94i_was_created_by",
                     "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Designation Name",
-                    "nodegroup_id": "7f22943b-74ca-11ea-b4d0-02e7594ce0a0",
-                    "nodeid": "deffc2f8-74cd-11ea-b4d0-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E75_Conceptual_Object_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by",
-                    "sortorder": 0
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "relatable_resource_model_ids": [
-                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "07ea0e1a-8e16-11ea-a6a6-02e7594ce0a0"
+                "07ea0e1a-8e16-11ea-a6a6-02e7594ce0a0",
+                "ccbd1537-ac5e-11e6-84a5-026d961c88e6"
             ],
             "resource_2_resource_constraints": [],
             "root": {
