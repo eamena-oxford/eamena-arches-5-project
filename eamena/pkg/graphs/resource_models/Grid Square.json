@@ -38,7 +38,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Grid ID",
                     "nodegroup_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
                     "sortorder": null,
@@ -137,7 +137,7 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "",
+            "description": "EAMENA Grid Square IDs",
             "edges": [
                 {
                     "description": null,
@@ -182,7 +182,7 @@
             ],
             "graphid": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
             "iconclass": "fa fa-th",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,

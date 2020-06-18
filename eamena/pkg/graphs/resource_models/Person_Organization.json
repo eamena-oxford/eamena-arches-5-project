@@ -23,7 +23,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": "Enter a description and description type for the resource.",
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Description",
                     "nodegroup_id": "3abb05c5-e743-11e6-84a6-026d961c88e6",
                     "sortorder": 1,
@@ -57,58 +57,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
-                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
-                    "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
-                            "constraintid": "19673721-0076-4002-8769-cd01a32939c8",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": "Describes an appellation assigned to an Actor Resource.\n\nRelates to resource model via P131",
-                    "graph_id": "ccbd1537-ac5e-11e6-84a5-026d961c88e6",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Enter the Actor name and role information",
-                    "is_editable": false,
-                    "name": "Appellation",
-                    "nodegroup_id": "eb6ccd23-e742-11e6-84a6-026d961c88e6",
-                    "sortorder": 0,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "4eb5c5b7-e743-11e6-84a6-026d961c88e6",
-                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
-                    "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "4eb5c5b7-e743-11e6-84a6-026d961c88e6",
-                            "constraintid": "bd9c9a83-3ed1-4a13-9529-f32114f476d3",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": "Start/End dates for resources.  Assumed to be typed and within calendar time. \n\nConnects to Activity (E7) and Historical Event (E5) resource models via P114\nConnects to Heritage Resource (E18) and Heritage Resource Group (E27) resource models via P12i\nConnects to Actor (E39) resource model via P11i",
-                    "graph_id": "ccbd1537-ac5e-11e6-84a5-026d961c88e6",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": "Record the start and end dates of the resource's existence.",
-                    "is_editable": true,
-                    "name": "Lifespan",
-                    "nodegroup_id": "4eb5c5b5-e743-11e6-84a6-026d961c88e6",
-                    "sortorder": 2,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "69e5fd38-859c-11ea-a6a6-02e7594ce0a0",
                     "component_id": "4e40b397-d6bc-4660-a398-4a72c90dba07",
                     "config": null,
@@ -133,7 +81,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Person/Organization Photo",
                     "nodegroup_id": "69e5fd36-859c-11ea-a6a6-02e7594ce0a0",
                     "sortorder": 5,
@@ -205,6 +153,58 @@
                 },
                 {
                     "active": true,
+                    "cardid": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
+                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
+                            "constraintid": "19673721-0076-4002-8769-cd01a32939c8",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "Describes an appellation assigned to an Actor Resource.\n\nRelates to resource model via P131",
+                    "graph_id": "ccbd1537-ac5e-11e6-84a5-026d961c88e6",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": "Enter the Actor name and role information",
+                    "is_editable": false,
+                    "name": "Appellation",
+                    "nodegroup_id": "eb6ccd23-e742-11e6-84a6-026d961c88e6",
+                    "sortorder": 0,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "4eb5c5b7-e743-11e6-84a6-026d961c88e6",
+                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "4eb5c5b7-e743-11e6-84a6-026d961c88e6",
+                            "constraintid": "bd9c9a83-3ed1-4a13-9529-f32114f476d3",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "Start/End dates for resources.  Assumed to be typed and within calendar time. \n\nConnects to Activity (E7) and Historical Event (E5) resource models via P114\nConnects to Heritage Resource (E18) and Heritage Resource Group (E27) resource models via P12i\nConnects to Actor (E39) resource model via P11i",
+                    "graph_id": "ccbd1537-ac5e-11e6-84a5-026d961c88e6",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": "Record the start and end dates of the resource's existence.",
+                    "is_editable": false,
+                    "name": "Lifespan",
+                    "nodegroup_id": "4eb5c5b5-e743-11e6-84a6-026d961c88e6",
+                    "sortorder": 2,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "0287a777-b0ab-11ea-9b1f-02e7594ce0a0",
                     "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
                     "config": {
@@ -230,7 +230,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
+                    "is_editable": false,
                     "name": "Location",
                     "nodegroup_id": "0287a775-b0ab-11ea-9b1f-02e7594ce0a0",
                     "sortorder": 4,
@@ -238,22 +238,6 @@
                 }
             ],
             "cards_x_nodes_x_widgets": [
-                {
-                    "card_id": "235685a5-e743-11e6-84a6-026d961c88e6",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "External Source",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "f889df5e-b0a8-11ea-9b1f-02e7594ce0a0",
-                    "label": "External Source",
-                    "node_id": "235685a7-e743-11e6-84a6-026d961c88e6",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
                 {
                     "card_id": "235685a5-e743-11e6-84a6-026d961c88e6",
                     "config": {
@@ -282,6 +266,22 @@
                     "label": "External XRef",
                     "node_id": "235685a3-e743-11e6-84a6-026d961c88e6",
                     "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "235685a5-e743-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "External Source",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "f889df5e-b0a8-11ea-9b1f-02e7594ce0a0",
+                    "label": "External Source",
+                    "node_id": "235685a7-e743-11e6-84a6-026d961c88e6",
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -351,6 +351,55 @@
                     "card_id": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
                     "config": {
                         "defaultValue": null,
+                        "label": "Actor/Investigator Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "8ee71206-6f86-11ea-b4d0-02e7594ce0a0",
+                    "label": "Actor/Investigator Name",
+                    "node_id": "eb6ccd23-e742-11e6-84a6-026d961c88e6",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Appellation Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "8ee71208-6f86-11ea-b4d0-02e7594ce0a0",
+                    "label": "Appellation Type",
+                    "node_id": "eb6ccd26-e742-11e6-84a6-026d961c88e6",
+                    "sortorder": 1,
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "4eb5c5b7-e743-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": null,
+                        "label": "Date of Birth",
+                        "maxDate": null,
+                        "minDate": null,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "e2619b5a-6f85-11ea-b4d0-02e7594ce0a0",
+                    "label": "Date of Birth",
+                    "node_id": "4eb5c5bb-e743-11e6-84a6-026d961c88e6",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": null,
                         "label": "Actor/Investigator Role",
                         "options": [],
                         "placeholder": "Select a role"
@@ -415,55 +464,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
-                    "card_id": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Actor/Investigator Name",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "8ee71206-6f86-11ea-b4d0-02e7594ce0a0",
-                    "label": "Actor/Investigator Name",
-                    "node_id": "eb6ccd23-e742-11e6-84a6-026d961c88e6",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "eb6ccd25-e742-11e6-84a6-026d961c88e6",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Appellation Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "8ee71208-6f86-11ea-b4d0-02e7594ce0a0",
-                    "label": "Appellation Type",
-                    "node_id": "eb6ccd26-e742-11e6-84a6-026d961c88e6",
-                    "sortorder": 1,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "4eb5c5b7-e743-11e6-84a6-026d961c88e6",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": null,
-                        "label": "Date of Birth",
-                        "maxDate": null,
-                        "minDate": null,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "e2619b5a-6f85-11ea-b4d0-02e7594ce0a0",
-                    "label": "Date of Birth",
-                    "node_id": "4eb5c5bb-e743-11e6-84a6-026d961c88e6",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
                     "card_id": "e1e326b2-8a3d-11ea-a6a6-02e7594ce0a0",
                     "config": {
                         "defaultValue": "",
@@ -493,6 +493,37 @@
                     "sortorder": 6,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3abb05c7-e743-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Description Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "a5eb9c54-b0a8-11ea-9b1f-02e7594ce0a0",
+                    "label": "Description Type",
+                    "node_id": "3abb05c9-e743-11e6-84a6-026d961c88e6",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "3abb05c7-e743-11e6-84a6-026d961c88e6",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "a5eb9c52-b0a8-11ea-9b1f-02e7594ce0a0",
+                    "label": "Description",
+                    "node_id": "3abb05c8-e743-11e6-84a6-026d961c88e6",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
                 },
                 {
                     "card_id": "0287a777-b0ab-11ea-9b1f-02e7594ce0a0",
@@ -538,37 +569,6 @@
                     "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
-                },
-                {
-                    "card_id": "3abb05c7-e743-11e6-84a6-026d961c88e6",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Description",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "a5eb9c52-b0a8-11ea-9b1f-02e7594ce0a0",
-                    "label": "Description",
-                    "node_id": "3abb05c8-e743-11e6-84a6-026d961c88e6",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "3abb05c7-e743-11e6-84a6-026d961c88e6",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Description Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "a5eb9c54-b0a8-11ea-9b1f-02e7594ce0a0",
-                    "label": "Description Type",
-                    "node_id": "3abb05c9-e743-11e6-84a6-026d961c88e6",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "69e5fd38-859c-11ea-a6a6-02e7594ce0a0",
@@ -622,7 +622,7 @@
             },
             "deploymentdate": null,
             "deploymentfile": null,
-            "description": "This resource model describes actor resources such as individual people and groups of people. ",
+            "description": "Actor resources such as individual people & groups of people. ",
             "edges": [
                 {
                     "description": null,
@@ -1315,7 +1315,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "f7e8545a-7647-46b2-a774-83e40b1a6d83"
                     },
                     "datatype": "concept",
                     "description": "Represents a single node in a graph",
@@ -1572,7 +1572,7 @@
                     "fieldname": "Geometry",
                     "graph_id": "ccbd1537-ac5e-11e6-84a5-026d961c88e6",
                     "is_collector": false,
-                    "isrequired": true,
+                    "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
                     "name": "Geometric Place Expression",
@@ -1603,8 +1603,8 @@
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "relatable_resource_model_ids": [
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
                 "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
                 "07ea0e1a-8e16-11ea-a6a6-02e7594ce0a0"
             ],
             "resource_2_resource_constraints": [],
@@ -1626,7 +1626,7 @@
                 "sortorder": 0
             },
             "slug": null,
-            "subtitle": "Describes actor resources such as individual people and groups of people. ",
+            "subtitle": "Actor resources such as individual people & groups of people. ",
             "template_id": "50000000-0000-0000-0000-000000000003",
             "version": ""
         }

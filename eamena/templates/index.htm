@@ -70,8 +70,13 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         </a>
                     </div>
                     <div class="navbar-header">
+                        <a href="https://marea.soton.ac.uk/" class="">
+                            <img src="{% static 'img/landing/eamena/marea-logo.png' %}" class="" width= "100" height= "75" style="vertical-align: bottom">&nbsp; 
+                        </a>
+                    </div>
+                    <div class="navbar-header">
                         <a href="http://www.archesproject.org" class="">
-                            <img src="{% static 'img/PoweredByArches.png' %}" class="powered-by-arches" width= "150" height= "23" style="vertical-align: middle">&nbsp; 
+                            <img src="{% static 'img/PoweredByArches.png' %}" class="powered-by-arches" width= "125" height= "20" style="vertical-align: middle">&nbsp; 
                         </a>
                     </div>
 
@@ -601,9 +606,25 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                     </li><br>
                 </div>
             </div>
+            
+            <!-- branding column 2 -->
+            <div class="col-lg-4">
+                
+                <h3 class="app-footer-heading">{% trans "MarEA Project" %}</h3>
+
+                <div class="organization-address">
+                    <li class="">
+                        <a class="splash-link-address" href="https://www.southampton.ac.uk/archaeology/index.page" target="_blank">{% trans "University of Southampton" %}</a>
+                    </li><br>
+                    <li class="">
+                        <a class="splash-link-address" href="https://www.ulster.ac.uk/" target="_blank">{% trans "Ulster University" %}</a>
+                    </li><br>
+                </div>
+            </div>
+
 
             <!-- Info Column -->
-            <div class="col-lg-8">
+            <div class="col-lg-4">
                 <h3 class="app-footer-heading">{% trans "Supported By:" %}</h3>
             
                  <div class="organization-address">
@@ -630,7 +651,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                             </ul>
                         </div>
 
-                        <div class="col-lg-4">
+                        <!--<div class="col-lg-4">
                             <ul class="splash-link-container">
                                 <li class="">
                                     <a class="splash-link-address" href="https://www.archesproject.org/faq/" target="_blank">{% trans "FAQ" %}</a>
@@ -647,7 +668,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <div class="col-lg-4">
                             <ul class="splash-link-container">
                                 <li class="">
-                                    <a class="splash-link-address" href="https://www.archesproject.org/project-background/" target="_blank">{% trans "Arches Project Background" %}</a>
+                                    <!--<a class="splash-link-address" href="https://www.archesproject.org/project-background/" target="_blank">{% trans "Arches Project Background" %}</a>
                                 </li>
                                 <li>
                                     <a class="splash-link-address" href="https://www.archesproject.org/videos/" target="_blank">{% trans "Arches Webinars/Presentations" %}</a>
@@ -657,7 +678,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
