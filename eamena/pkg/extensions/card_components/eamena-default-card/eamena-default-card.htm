@@ -19,7 +19,7 @@
         <!-- /ko -->
         <span style="padding-right: 5px;" data-bind="text: card.model.name"></span>
         <!-- ko if: card.canAdd() -->
-        <i class="fa fa-plus-circle add-new-tile" role="presentation" data-bind="css:{'jstree-clicked': card.selected}" data-toggle="tooltip" data-original-title="{% trans "Add New" %}"></i>
+        <i class="fa fa-plus-circle add-new-tile" role="presentation" data-bind="css:{'jstree-clicked': card.selected}, click: function(){self.card.newTile.save()}" data-toggle="tooltip" data-original-title="{% trans "Add New" %}"></i>
         <!-- /ko -->
     </a>
     <ul class="jstree-children" aria-expanded="true">
@@ -272,7 +272,7 @@
 
         <div class="card">
             {% block form_header %}
-            <h4 data-bind="text: card.model.name"></h4>
+            <h3 data-bind="text: card.model.name"></h3>
 
             <!-- ko if: card.model.helpenabled -->
             <span>
@@ -325,8 +325,16 @@
 <!-- ko if: !self.preview -->
 
                 <hr size="1"/>
+		<h4 data-bind="text: card.model.name"></h4>
 
 <!-- /ko -->
+                <!--ko if: ko.unwrap(card.cards).length && !card.selected() && card.widgets.length === 0 -->
+                <div style="padding-left: 5px" class="widget-input-label">
+                    <span data-bind="text: card.model.name"></span>
+                </div>
+                <!-- <h5 data-bind="text: ko.unwrap(card.model.name) + ' : ' + ko.unwrap(card.cards).length  + ' : ' + ko.unwrap(card.parent.tileid) + ' : ' + card.widgets.length"></h5> -->
+                <!-- <button data-bind="click: function(){card.selected(true);}">Add New</button> -->
+                <!-- /ko -->
 
                 <li class="card-summary" data-bind="visible: card.model.visible()">
                     <a href="javascript:void(0)" data-bind="click: function () {
@@ -348,9 +356,7 @@
 
 <!-- /ko -->
 <!-- ko if: !self.preview -->
-                    <form class="widgets" style="margin-bottom: 2em;">
-
-
+                    <form class="widgets" style="margin-bottom: 2em;" data-bind="style: {'padding-bottom': card.widgets.length === 0 ? '1px' : '0px'}">
                         <div data-bind="foreach: {
                                 data:card.widgets, as: 'widget'
                             }">
@@ -378,9 +384,12 @@
 
                         </div>
 
-                        <div class="install-buttons pull-right">
+                        <div class="install-buttons">
 
                             <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: function() { self.saveValue($index); };, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Add'  %}</button>
+<!-- ko if: self.dirty($index) -->
+	                    <button class="btn btn-shim btn-danger btn-labeled btn-lg fa fa-times" data-bind="click: function() { self.clearInput($index); } ">{% trans 'Cancel edit' %}</button>
+<!-- /ko -->
 
                         </div>
 
@@ -433,17 +442,17 @@
             {% block form_buttons %}
             <div class="install-buttons">
                 <!-- ko if: tile.tileid && self.deleteTile -->
-                <button class="btn btn-shim btn-labeled btn-lg fa fa-trash" data-bind="click: self.deleteTile, css: {disabled: (!card.isWritable && !self.preview), 'btn-warning': card.isWritable }">{% trans 'Delete this record' %}</button>
+                <button class="btn btn-shim btn-labeled btn-lg fa fa-trash" data-bind="click: self.deleteTile, css: {disabled: (!card.isWritable && !self.preview), 'btn-warning': card.isWritable }">{% trans 'Delete this' %} <span data-bind="text: card.model.name"></span></button>
                 <!-- /ko -->
                 <!-- ko if: tile.dirty() -->
-                <!-- ko if: provisionalTileViewModel && !provisionalTileViewModel.tileIsFullyProvisional() && card.isWritable -->
-                <button class="btn btn-shim btn-danger btn-labeled btn-lg fa fa-times" data-bind="click: tile.reset">{% trans 'Cancel edit' %}</button>
-                <!-- /ko -->
+                    <!-- ko if: provisionalTileViewModel && !provisionalTileViewModel.tileIsFullyProvisional() && card.isWritable -->
+                    <button class="btn btn-shim btn-danger btn-labeled btn-lg fa fa-times" data-bind="click: tile.reset">{% trans 'Cancel edit' %}</button>
+                    <!-- /ko -->
                     <!-- ko if: tile.tileid -->
                     <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: self.saveTile, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Save edit' %}</button>
                     <!-- /ko -->
                 <!-- /ko -->
-                <!-- ko if: !tile.tileid -->
+                <!-- ko if: !tile.tileid && tile.dirty()-->
                 <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: self.saveTile, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Add'  %}</button>
                 <!-- /ko -->
             </div>

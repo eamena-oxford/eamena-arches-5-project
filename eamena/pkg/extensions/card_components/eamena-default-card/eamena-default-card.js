@@ -57,6 +57,41 @@ define([
             return(self.uimapping[i][j]);
         }
 
+        this.clearValue = function(arg)
+        {
+            var index = arg();
+            var valueindex = self.uimapping[index];
+
+            for(i = 0; i < valueindex.length; i++)
+            {
+//                savevalues[i] = this.values()[valueindex[i]]();
+            }
+        }
+
+        this.dirty = function(arg)
+	{
+            var index = arg();
+            var valueindex = self.uimapping[index];
+            var ret = false;
+
+            for(var i = 0; i < valueindex.length; i++)
+            {
+                if(this.values()[valueindex[i]]() != '') { ret = true; }
+            }
+            return ret;
+	}
+
+	this.clearInput = function(arg)
+	{
+            var index = arg();
+            var valueindex = self.uimapping[index];
+
+            for(var i = 0; i < valueindex.length; i++)
+            {
+                this.values()[valueindex[i]]('');
+            }
+	}
+
         this.saveValue = function(arg)
         {
             var index = arg();
