@@ -57,29 +57,26 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
         
         <nav class="navbar">
             <div class="container-fluid">
-                <div class="navbar-header">
+                <div class="collapse navbar-collapse" id="myNavbar" >
                     <!--<div class="relative" style="padding: 12px 10px 8px 10px; width: 800px;">
                         <div class="navbar-brand-v5-icon-container" style="">
                             <img class="navbar-brand-v5-icon" src="{% static 'img/landing/arches_logo_dark.png' %}" style="" alt="Arches Logo">
                         </div>
                     </div> -->
                     <span class="icon-bar"></span>
-                    <div class="application-name" style=""> 
+                    <!--<div class="application-name" style="">  -->
                         <a class="navbar-brand" href="{% url 'home' %}">
-                             <img id="logo-header" class="arches-logo" src="{{ STATIC_URL }}img/landing/eamena/eamena_logo_med.jpg" alt="Logo">&nbsp;
+                             <img id="logo-header" class="arches-logo" src="{{ STATIC_URL }}img/landing/eamena/eamena_logo_nobackground_lg.png" alt="EAMENA" style="width: 450px; height: 60px">&nbsp;
                         </a>
-                    </div>
-                    <div class="navbar-header">
+                    <!-- </div> -->
+                    <!--<div class="application-name" style=""> -->
                         <a href="https://marea.soton.ac.uk/" class="">
-                            <img src="{% static 'img/landing/eamena/marea-logo.png' %}" class="" width= "100" height= "75" style="vertical-align: bottom">&nbsp; 
+                            <img src="{% static 'img/landing/eamena/marea-logo_white.png' %}" class="" width= "175" height= "60" style="align: center">&nbsp; 
                         </a>
-                    </div>
-                    <div class="navbar-header">
                         <a href="http://www.archesproject.org" class="">
-                            <img src="{% static 'img/PoweredByArches.png' %}" class="powered-by-arches" width= "125" height= "20" style="vertical-align: middle">&nbsp; 
+                            <img src="{% static 'img/PoweredByArches.png' %}" class="powered-by-arches" width= "125" height= "20" >&nbsp; 
                         </a>
-                    </div>
-
+                    <!--</div>
                                         
             <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
@@ -97,12 +94,9 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         </div>
                     </div>
                 </div>-->
-                    <div class="relative" style="padding: 12px 10px 8px 600px;">   
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav">
-                                <!-- <li class="">
-                                    <a href="#info-block-0">{% trans "Arches Features" %}</a>
-                                </li> -->
+                    <!--<div class="navbar-header" style="padding: 0px 0px 0px 900px;">    -->
+                        <!--<div class="collapse navbar-collapse" id="myNavbar" style="padding: 0px 0px 0px 900px;"> -->
+                            <ul class="nav navbar-nav" style="padding: 0px 0px 0px 900px">
                                 <li class="">
                                     <a href="{% url 'search_home' %}">{% trans "Search the EAMENA Database" %}</a>
                                 </li>
@@ -114,7 +108,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                                 {% endif %}
                             </ul>
 
-                            <ul class="nav navbar-nav navbar-right" style="padding-right: 80px;">
+                            <ul class="nav navbar-nav navbar-right">
                                 <li class="">
                                 {% if user.username == 'anonymous' %}
                                     <a class="application-login" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Sign in" %}</a>
@@ -128,9 +122,10 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                                 {% endif %}
                                 </li>
                             </ul>
-                        </div>
+    
                     </div>
                 </div>
+               
             </div>
         </nav>
         <!-- /container -->
