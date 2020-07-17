@@ -1206,6 +1206,22 @@
                     "widget_id": "10000000-0000-0000-0000-000000000019"
                 },
                 {
+                    "card_id": "a45ae0a8-56e6-11ea-a3f7-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Shared Data Source Project",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "cbad6dce-56e6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Shared Data Source Project",
+                    "node_id": "349cac15-52f8-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
                     "card_id": "90181f04-5252-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
@@ -1222,17 +1238,17 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "a45ae0a8-56e6-11ea-a3f7-02e7594ce0a0",
+                    "card_id": "b33b9daa-56e7-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
-                        "label": "Shared Data Source Project",
+                        "label": "Creator",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
-                    "id": "cbad6dce-56e6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Shared Data Source Project",
-                    "node_id": "349cac15-52f8-11ea-a3f7-02e7594ce0a0",
+                    "id": "c26cbb42-56e7-11ea-a3f7-02e7594ce0a0",
+                    "label": "Creator",
+                    "node_id": "22877ce5-52f2-11ea-a3f7-02e7594ce0a0",
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
@@ -1254,22 +1270,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "b33b9daa-56e7-11ea-a3f7-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Creator",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "c26cbb42-56e7-11ea-a3f7-02e7594ce0a0",
-                    "label": "Creator",
-                    "node_id": "22877ce5-52f2-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "49c2fb34-5250-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
@@ -1282,6 +1282,22 @@
                     "label": "Publisher",
                     "node_id": "39bf3874-5252-11ea-a3f7-02e7594ce0a0",
                     "sortorder": 8,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "b708007c-56e7-11ea-a3f7-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Source Appellation",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "bcf30ebe-56e7-11ea-a3f7-02e7594ce0a0",
+                    "label": "Source Appellation",
+                    "node_id": "4f95a760-52f1-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1304,17 +1320,17 @@
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
-                    "card_id": "b708007c-56e7-11ea-a3f7-02e7594ce0a0",
+                    "card_id": "f701cf4c-56e6-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": "",
-                        "label": "Source Appellation",
+                        "label": "Title",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
-                    "id": "bcf30ebe-56e7-11ea-a3f7-02e7594ce0a0",
-                    "label": "Source Appellation",
-                    "node_id": "4f95a760-52f1-11ea-a3f7-02e7594ce0a0",
+                    "id": "1dab3160-56e7-11ea-a3f7-02e7594ce0a0",
+                    "label": "Title",
+                    "node_id": "3d0dfc7f-5251-11ea-a3f7-02e7594ce0a0",
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
@@ -1352,22 +1368,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "f701cf4c-56e6-11ea-a3f7-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Title",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "1dab3160-56e7-11ea-a3f7-02e7594ce0a0",
-                    "label": "Title",
-                    "node_id": "3d0dfc7f-5251-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "49c2fb34-5250-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
@@ -1380,6 +1380,22 @@
                     "label": "Figure Number(s)",
                     "node_id": "33721083-5252-11ea-a3f7-02e7594ce0a0",
                     "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "4c30c33e-56e6-11ea-a3f7-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Creator Appellation ",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "727a5c08-56e6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Creator Appellation ",
+                    "node_id": "f3124fb3-52f5-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1416,34 +1432,18 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "4c30c33e-56e6-11ea-a3f7-02e7594ce0a0",
+                    "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": "",
-                        "label": "Creator Appellation ",
+                        "label": "Edition",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
-                    "id": "727a5c08-56e6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Creator Appellation ",
-                    "node_id": "f3124fb3-52f5-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "9f88e9ee-56e6-11ea-a3f7-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Shared Data Source",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "bb8caf0e-56e6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Shared Data Source",
-                    "node_id": "f2322129-52f7-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": null,
+                    "id": "5201d0c1-52f6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Edition",
+                    "node_id": "edecaffb-52f5-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": 8,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1513,54 +1513,20 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
+                    "card_id": "9f88e9ee-56e6-11ea-a3f7-02e7594ce0a0",
                     "config": {
-                        "defaultValue": "",
-                        "label": "Edition",
+                        "defaultValue": null,
+                        "label": "Shared Data Source",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
-                    "id": "5201d0c1-52f6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Edition",
-                    "node_id": "edecaffb-52f5-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": 8,
+                    "id": "bb8caf0e-56e6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Shared Data Source",
+                    "node_id": "f2322129-52f7-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "11da527b-80a5-11ea-a6a6-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Relationship Comments",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "c623d28c-80a5-11ea-a6a6-02e7594ce0a0",
-                    "label": "Relationship Comments",
-                    "node_id": "11da527e-80a5-11ea-a6a6-02e7594ce0a0",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "11da527b-80a5-11ea-a6a6-02e7594ce0a0",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Relationship from Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "c623d287-80a5-11ea-a6a6-02e7594ce0a0",
-                    "label": "Relationship from Date",
-                    "node_id": "11da527d-80a5-11ea-a6a6-02e7594ce0a0",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
                     "card_id": "4f59f8c8-56e6-11ea-a3f7-02e7594ce0a0",
@@ -1613,6 +1579,40 @@
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
                         "defaultValue": "",
+                        "label": "Relationship from Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "c623d287-80a5-11ea-a6a6-02e7594ce0a0",
+                    "label": "Relationship from Date",
+                    "node_id": "11da527d-80a5-11ea-a6a6-02e7594ce0a0",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "11da527b-80a5-11ea-a6a6-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Relationship Comments",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "c623d28c-80a5-11ea-a6a6-02e7594ce0a0",
+                    "label": "Relationship Comments",
+                    "node_id": "11da527e-80a5-11ea-a6a6-02e7594ce0a0",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "11da527b-80a5-11ea-a6a6-02e7594ce0a0",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
                         "label": "Relationship to Date",
                         "maxDate": false,
                         "minDate": false,
@@ -1625,22 +1625,6 @@
                     "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "370d0d56-c5cb-11ea-9026-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Editor Appellation",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "67cc3bf3-c5cd-11ea-9026-02e7594ce0a0",
-                    "label": "Editor Appellation",
-                    "node_id": "eaad4114-c5ab-11ea-9026-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
@@ -1687,6 +1671,22 @@
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
+                    "card_id": "370d0d56-c5cb-11ea-9026-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Editor Appellation",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "67cc3bf3-c5cd-11ea-9026-02e7594ce0a0",
+                    "label": "Editor Appellation",
+                    "node_id": "eaad4114-c5ab-11ea-9026-02e7594ce0a0",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
                     "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
@@ -1714,6 +1714,35 @@
                     "label": "Issues/Edition",
                     "node_id": "99e55b37-5251-11ea-a3f7-02e7594ce0a0",
                     "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "587447d7-b0c2-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "label": "Grid ID",
+                        "placeholder": ""
+                    },
+                    "id": "587447f7-b0c2-11ea-9b1f-02e7594ce0a0",
+                    "label": "Grid ID",
+                    "node_id": "587447dd-b0c2-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "587447d7-b0c2-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Address",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "587447f8-b0c2-11ea-9b1f-02e7594ce0a0",
+                    "label": "Address",
+                    "node_id": "587447df-b0c2-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -1760,35 +1789,6 @@
                     "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "587447d7-b0c2-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "label": "Grid ID",
-                        "placeholder": ""
-                    },
-                    "id": "587447f7-b0c2-11ea-9b1f-02e7594ce0a0",
-                    "label": "Grid ID",
-                    "node_id": "587447dd-b0c2-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
-                    "card_id": "587447d7-b0c2-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Address",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "587447f8-b0c2-11ea-9b1f-02e7594ce0a0",
-                    "label": "Address",
-                    "node_id": "587447df-b0c2-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 4,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "54c62e30-524f-11ea-a3f7-02e7594ce0a0",
@@ -1869,6 +1869,22 @@
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
+                    "card_id": "b528b066-5189-11ea-a3f7-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Description",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "50570f85-5236-11ea-a3f7-02e7594ce0a0",
+                    "label": "Description",
+                    "node_id": "b528b064-5189-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
                     "card_id": "3d7ddeb9-5253-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": "",
@@ -1933,38 +1949,19 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "49311d1e-56e6-11ea-a3f7-02e7594ce0a0",
+                    "card_id": "9fb54d2f-c6a6-11ea-a292-02e7594ce0a0",
                     "config": {
-                        "defaultValue": "",
-                        "label": "Tile Sqaure Details",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
+                        "defaultValue": "7f0f93a9-4f0c-4e2d-8825-47c0fd9ce506",
+                        "label": "Restricted Access Record Designation",
+                        "options": [],
+                        "placeholder": "Select an option"
                     },
-                    "id": "70865f46-56e6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Tile Sqaure Details",
-                    "node_id": "d4afc9d7-52f6-11ea-a3f7-02e7594ce0a0",
+                    "id": "9fb54d30-c6a6-11ea-a292-02e7594ce0a0",
+                    "label": "Restricted Access Record Designation",
+                    "node_id": "9fb54d2d-c6a6-11ea-a292-02e7594ce0a0",
                     "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "a7235cf2-56e6-11ea-a3f7-02e7594ce0a0",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Shared Data Source Date of Creation",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "d4fbea68-56e6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Shared Data Source Date of Creation",
-                    "node_id": "f3ef77c2-52f7-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                    "visible": false,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "641b385a-52f7-11ea-a3f7-02e7594ce0a0",
@@ -2017,35 +2014,70 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "b528b066-5189-11ea-a3f7-02e7594ce0a0",
+                    "card_id": "49311d1e-56e6-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": "",
-                        "label": "Description",
+                        "label": "Tile Sqaure Details",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
-                    "id": "50570f85-5236-11ea-a3f7-02e7594ce0a0",
-                    "label": "Description",
-                    "node_id": "b528b064-5189-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": 0,
+                    "id": "70865f46-56e6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Tile Sqaure Details",
+                    "node_id": "d4afc9d7-52f6-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": null,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "9fb54d2f-c6a6-11ea-a292-02e7594ce0a0",
+                    "card_id": "a7235cf2-56e6-11ea-a3f7-02e7594ce0a0",
                     "config": {
-                        "defaultValue": "7f0f93a9-4f0c-4e2d-8825-47c0fd9ce506",
-                        "label": "Restricted Access Record Designation",
-                        "options": [],
-                        "placeholder": "Select an option"
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Shared Data Source Date of Creation",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
                     },
-                    "id": "9fb54d30-c6a6-11ea-a292-02e7594ce0a0",
-                    "label": "Restricted Access Record Designation",
-                    "node_id": "9fb54d2d-c6a6-11ea-a292-02e7594ce0a0",
+                    "id": "d4fbea68-56e6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Shared Data Source Date of Creation",
+                    "node_id": "f3ef77c2-52f7-11ea-a3f7-02e7594ce0a0",
                     "sortorder": null,
-                    "visible": false,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Place of Publication",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "5201d0bf-52f6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Place of Publication",
+                    "node_id": "ff7ee071-52f5-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Sheet Name",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "fc1aa749-52f6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Sheet Name",
+                    "node_id": "d2c1d525-52f6-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": 6,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
@@ -2079,36 +2111,33 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
+                    "card_id": "49c2fb34-5250-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
-                        "label": "Place of Publication",
+                        "label": "Page Number(s)",
                         "maxLength": null,
                         "placeholder": "Enter text",
                         "width": "100%"
                     },
-                    "id": "5201d0bf-52f6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Place of Publication",
-                    "node_id": "ff7ee071-52f5-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": 3,
+                    "id": "658d8381-5252-11ea-a3f7-02e7594ce0a0",
+                    "label": "Page Number(s)",
+                    "node_id": "363f4abf-5252-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": 9,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
-                    "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
+                    "card_id": "11da527b-80a5-11ea-a6a6-02e7594ce0a0",
                     "config": {
-                        "defaultValue": null,
-                        "label": "Sheet Name",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
+                        "label": "Related Site",
+                        "placeholder": ""
                     },
-                    "id": "fc1aa749-52f6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Sheet Name",
-                    "node_id": "d2c1d525-52f6-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": 6,
+                    "id": "a6cd092b-80a5-11ea-a6a6-02e7594ce0a0",
+                    "label": "Related Site",
+                    "node_id": "11da5279-80a5-11ea-a6a6-02e7594ce0a0",
+                    "sortorder": 0,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
                     "card_id": "61ca9146-80a5-11ea-a6a6-02e7594ce0a0",
@@ -2174,35 +2203,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
-                    "card_id": "49c2fb34-5250-11ea-a3f7-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Page Number(s)",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "658d8381-5252-11ea-a3f7-02e7594ce0a0",
-                    "label": "Page Number(s)",
-                    "node_id": "363f4abf-5252-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": 9,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "11da527b-80a5-11ea-a6a6-02e7594ce0a0",
-                    "config": {
-                        "label": "Related Site",
-                        "placeholder": ""
-                    },
-                    "id": "a6cd092b-80a5-11ea-a6a6-02e7594ce0a0",
-                    "label": "Related Site",
-                    "node_id": "11da5279-80a5-11ea-a6a6-02e7594ce0a0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
                     "card_id": "8439ef2a-52f5-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
@@ -2233,22 +2233,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
-                    "card_id": "47307870-56e6-11ea-a3f7-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Tile Square Appellation",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "6d77f5c6-56e6-11ea-a3f7-02e7594ce0a0",
-                    "label": "Tile Square Appellation",
-                    "node_id": "d2c1d525-52f6-11ea-a3f7-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "3d7ddeb9-5253-11ea-a3f7-02e7594ce0a0",
                     "config": {
                         "defaultValue": "",
@@ -2277,6 +2261,22 @@
                     "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "47307870-56e6-11ea-a3f7-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Tile Square Appellation",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "6d77f5c6-56e6-11ea-a3f7-02e7594ce0a0",
+                    "label": "Tile Square Appellation",
+                    "node_id": "d2c1d525-52f6-11ea-a3f7-02e7594ce0a0",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "3d7ddeb9-5253-11ea-a3f7-02e7594ce0a0",
@@ -3204,7 +3204,7 @@
                 },
                 {
                     "config": {
-                        "last_value": "14",
+                        "last_value": "15",
                         "prefix": "INFORMATION-",
                         "selected_nodegroup": "4c403a80-8a3d-11ea-a6a6-02e7594ce0a0",
                         "starting_value": "0000001",
@@ -5301,7 +5301,6 @@
                 "6c4f0703-c381-11ea-9026-02e7594ce0a0",
                 "f6235ff1-f992-11e9-b345-06f597a7d5ce",
                 "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                "0bc38a23-74c9-11ea-b4d0-02e7594ce0a0",
                 "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                 "34cfe98e-c2c0-11ea-9026-02e7594ce0a0",
                 "77d18973-7428-11ea-b4d0-02e7594ce0a0",

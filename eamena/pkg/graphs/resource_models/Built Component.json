@@ -29,7 +29,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "COMPONENT ID",
                     "nodegroup_id": "0b5cee08-c388-11ea-9026-02e7594ce0a0",
                     "sortorder": null,
@@ -57,7 +57,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Built Component",
                     "nodegroup_id": "1ccdc67b-c384-11ea-9026-02e7594ce0a0",
                     "sortorder": 0,
@@ -353,6 +353,20 @@
             "functions_x_graphs": [
                 {
                     "config": {
+                        "last_value": "3",
+                        "prefix": "COMPONENT-",
+                        "selected_nodegroup": "0b5cee08-c388-11ea-9026-02e7594ce0a0",
+                        "starting_value": "0000000",
+                        "suffix": "",
+                        "target_node": "0b5cee08-c388-11ea-9026-02e7594ce0a0",
+                        "triggering_nodegroups": []
+                    },
+                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
+                    "graph_id": "6c4f0703-c381-11ea-9026-02e7594ce0a0",
+                    "id": "6c531021-c388-11ea-9026-02e7594ce0a0"
+                },
+                {
+                    "config": {
                         "description": {
                             "nodegroup_id": "1ccdc67b-c384-11ea-9026-02e7594ce0a0",
                             "string_template": "<Component Classification>, <Component Type>"
@@ -370,25 +384,11 @@
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "6c4f0703-c381-11ea-9026-02e7594ce0a0",
                     "id": "b4b2ce09-c38a-11ea-9026-02e7594ce0a0"
-                },
-                {
-                    "config": {
-                        "last_value": "2",
-                        "prefix": "COMPONENT-",
-                        "selected_nodegroup": "0b5cee08-c388-11ea-9026-02e7594ce0a0",
-                        "starting_value": "0000000",
-                        "suffix": "",
-                        "target_node": "0b5cee08-c388-11ea-9026-02e7594ce0a0",
-                        "triggering_nodegroups": []
-                    },
-                    "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
-                    "graph_id": "6c4f0703-c381-11ea-9026-02e7594ce0a0",
-                    "id": "6c531021-c388-11ea-9026-02e7594ce0a0"
                 }
             ],
             "graphid": "6c4f0703-c381-11ea-9026-02e7594ce0a0",
             "iconclass": "fa fa-cubes",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
