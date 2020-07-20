@@ -120,6 +120,7 @@ define([
                     for(i = 0; i < keys.length; i++)
                     {
                         if(keys[i].startsWith('_')) { continue; }
+                        if(savevalue == '') { value_id++; continue; }
                         if(typeof newtile.data[keys[i]] === "function")
                         {
                             newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
@@ -143,6 +144,7 @@ define([
                 for(i = 0; i < keys.length; i++)
                 {
                     if(keys[i].startsWith('_')) { continue; }
+                    if(savevalue == '') { value_id++; continue; }
                     if(typeof newtile.data[keys[i]] === "function")
                     {
                         newtile.data[keys[i]](savevalue); // If this is an observable already, it'll be a function
