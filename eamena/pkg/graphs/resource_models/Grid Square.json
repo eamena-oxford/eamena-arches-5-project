@@ -6,7 +6,7 @@
                 {
                     "active": true,
                     "cardid": "b3628db2-742d-11ea-b4d0-02e7594ce0a0",
-                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
                     "config": {
                         "centerX": 28.35335107798743,
                         "centerY": 22.755462232985128,
@@ -43,32 +43,55 @@
                     "nodegroup_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
                     "sortorder": null,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "7248e0d2-ca96-11ea-a292-02e7594ce0a0",
+                    "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
+                    "config": {
+                        "centerX": 28.35335107798743,
+                        "centerY": 22.755462232985128,
+                        "selectSource": "",
+                        "selectSourceLayer": "",
+                        "selectText": "",
+                        "zoom": 3
+                    },
+                    "constraints": [
+                        {
+                            "card_id": "7248e0d2-ca96-11ea-a292-02e7594ce0a0",
+                            "constraintid": "4ba5416b-677c-4d02-967a-d53b61a21707",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        },
+                        {
+                            "card_id": "7248e0d2-ca96-11ea-a292-02e7594ce0a0",
+                            "constraintid": "43befa95-d8d3-493a-941f-392e52004cc5",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Geometry Place Expression",
+                    "nodegroup_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
+                    "sortorder": null,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "b3628db2-742d-11ea-b4d0-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Grid Square",
-                        "maxLength": null,
-                        "placeholder": "Enter Grid ID in the format E##N##-##",
-                        "width": "100%"
-                    },
-                    "id": "611e3251-742f-11ea-b4d0-02e7594ce0a0",
-                    "label": "Grid Square",
-                    "node_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "b3628db2-742d-11ea-b4d0-02e7594ce0a0",
+                    "card_id": "7248e0d2-ca96-11ea-a292-02e7594ce0a0",
                     "config": {
                         "basemap": "streets",
                         "bearing": null,
-                        "centerX": null,
-                        "centerY": null,
+                        "centerX": 28.35335107798743,
+                        "centerY": 22.755462232985128,
                         "defaultValue": null,
                         "defaultValueType": null,
                         "featureColor": "#FF0000",
@@ -90,14 +113,30 @@
                         "overlayOpacity": null,
                         "pitch": null,
                         "rerender": true,
-                        "zoom": null
+                        "zoom": 3
                     },
-                    "id": "611e3253-742f-11ea-b4d0-02e7594ce0a0",
+                    "id": "2be64231-ca97-11ea-a292-02e7594ce0a0",
                     "label": "Grid Square Geometry",
-                    "node_id": "c444eb18-742e-11ea-b4d0-02e7594ce0a0",
-                    "sortorder": 1,
+                    "node_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
+                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
+                },
+                {
+                    "card_id": "b3628db2-742d-11ea-b4d0-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Grid Square",
+                        "maxLength": null,
+                        "placeholder": "Enter Grid ID in the format E##N##-##",
+                        "width": "100%"
+                    },
+                    "id": "611e3251-742f-11ea-b4d0-02e7594ce0a0",
+                    "label": "Grid Square",
+                    "node_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ],
             "color": null,
@@ -142,20 +181,20 @@
                 {
                     "description": null,
                     "domainnode_id": "77d18972-7428-11ea-b4d0-02e7594ce0a0",
+                    "edgeid": "7248e0d3-ca96-11ea-a292-02e7594ce0a0",
+                    "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "77d18972-7428-11ea-b4d0-02e7594ce0a0",
                     "edgeid": "b3628db3-742d-11ea-b4d0-02e7594ce0a0",
                     "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "rangenode_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
-                    "edgeid": "c444eb19-742e-11ea-b4d0-02e7594ce0a0",
-                    "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
-                    "rangenode_id": "c444eb18-742e-11ea-b4d0-02e7594ce0a0"
                 }
             ],
             "functions_x_graphs": [
@@ -177,7 +216,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
-                    "id": "ee09ea75-b181-11ea-9b1f-02e7594ce0a0"
+                    "id": "225fb109-cc2c-11ea-a292-02e7594ce0a0"
                 }
             ],
             "graphid": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
@@ -191,11 +230,58 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
+                    "nodegroupid": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
                     "nodegroupid": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
                     "parentnodegroup_id": null
                 }
             ],
             "nodes": [
+                {
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": 20,
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": 3,
+                        "fillColor": "rgba(130, 130, 130, 0.5)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130, 130, 130, 0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(200, 200, 200, 0.7)",
+                        "outlineWeight": 2,
+                        "pointColor": "rgba(130, 130, 130, 0.7)",
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 2
+                    },
+                    "datatype": "geojson-feature-collection",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Grid Square Geometric Place Expression",
+                    "nodegroup_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
+                    "nodeid": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
                 {
                     "config": null,
                     "datatype": "semantic",
@@ -231,57 +317,15 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
-                },
-                {
-                    "config": {
-                        "addToMap": false,
-                        "advancedStyle": "[\n\t{\n\t\t\"id\": \"resources-fill-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"fill\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Polygon\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"fill-color\": \"rgba(130, 130, 130, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-fill-c444eb18-742e-11ea-b4d0-02e7594ce0a0-click\",\n\t\t\"type\": \"fill\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Polygon\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"fill-color\": \"rgba(130, 130, 130, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-fill-c444eb18-742e-11ea-b4d0-02e7594ce0a0-hover\",\n\t\t\"type\": \"fill\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Polygon\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"fill-color\": \"rgba(130, 130, 130, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-poly-outline-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Polygon\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 2,\n\t\t\t\"line-color\": \"rgba(200, 200, 200, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-poly-outline-c444eb18-742e-11ea-b4d0-02e7594ce0a0-hover\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Polygon\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 4,\n\t\t\t\"line-color\": \"rgba(200, 200, 200, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-poly-outline-c444eb18-742e-11ea-b4d0-02e7594ce0a0-click\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Polygon\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 4,\n\t\t\t\"line-color\": \"rgba(200, 200, 200, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-line-halo-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"LineString\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 4,\n\t\t\t\"line-color\": \"rgba(200, 200, 200, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-line-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"LineString\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 2,\n\t\t\t\"line-color\": \"rgba(130, 130, 130, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-line-halo-c444eb18-742e-11ea-b4d0-02e7594ce0a0-hover\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"LineString\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 8,\n\t\t\t\"line-color\": \"rgba(200, 200, 200, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-line-c444eb18-742e-11ea-b4d0-02e7594ce0a0-hover\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"LineString\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 4,\n\t\t\t\"line-color\": \"rgba(130, 130, 130, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-line-halo-c444eb18-742e-11ea-b4d0-02e7594ce0a0-click\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"LineString\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 8,\n\t\t\t\"line-color\": \"rgba(200, 200, 200, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-line-c444eb18-742e-11ea-b4d0-02e7594ce0a0-click\",\n\t\t\"type\": \"line\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"LineString\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"line-width\": 4,\n\t\t\t\"line-color\": \"rgba(130, 130, 130, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-point-halo-c444eb18-742e-11ea-b4d0-02e7594ce0a0-hover\",\n\t\t\"type\": \"circle\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Point\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"circle-radius\": 8,\n\t\t\t\"circle-color\": \"rgba(200, 200, 200, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-point-c444eb18-742e-11ea-b4d0-02e7594ce0a0-hover\",\n\t\t\"type\": \"circle\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Point\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"circle-radius\": 4,\n\t\t\t\"circle-color\": \"rgba(130, 130, 130, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-point-halo-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"circle\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Point\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"circle-radius\": 4,\n\t\t\t\"circle-color\": \"rgba(200, 200, 200, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-point-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"circle\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Point\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"circle-radius\": 2,\n\t\t\t\"circle-color\": \"rgba(130, 130, 130, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-point-halo-c444eb18-742e-11ea-b4d0-02e7594ce0a0-click\",\n\t\t\"type\": \"circle\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Point\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"circle-radius\": 8,\n\t\t\t\"circle-color\": \"rgba(200, 200, 200, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-point-c444eb18-742e-11ea-b4d0-02e7594ce0a0-click\",\n\t\t\"type\": \"circle\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Point\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t],\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"resourceinstanceid\",\n\t\t\t\t\"\"\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"circle-radius\": 4,\n\t\t\t\"circle-color\": \"rgba(130, 130, 130, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-cluster-point-halo-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"circle\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Point\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\">\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"circle-radius\": {\n\t\t\t\t\"property\": \"total\",\n\t\t\t\t\"stops\": [\n\t\t\t\t\t[\n\t\t\t\t\t\t0,\n\t\t\t\t\t\t22\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t50,\n\t\t\t\t\t\t24\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t100,\n\t\t\t\t\t\t26\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t200,\n\t\t\t\t\t\t28\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t400,\n\t\t\t\t\t\t30\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t800,\n\t\t\t\t\t\t32\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t1200,\n\t\t\t\t\t\t34\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t1600,\n\t\t\t\t\t\t36\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t2000,\n\t\t\t\t\t\t38\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t2500,\n\t\t\t\t\t\t40\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t3000,\n\t\t\t\t\t\t42\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t4000,\n\t\t\t\t\t\t44\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t5000,\n\t\t\t\t\t\t46\n\t\t\t\t\t]\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"circle-color\": \"rgba(200, 200, 200, 0.5)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-cluster-point-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"circle\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"visibility\": \"visible\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\"==\",\n\t\t\t\t\"$type\",\n\t\t\t\t\"Point\"\n\t\t\t],\n\t\t\t[\n\t\t\t\t\">\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t],\n\t\t\"paint\": {\n\t\t\t\"circle-radius\": {\n\t\t\t\t\"property\": \"total\",\n\t\t\t\t\"type\": \"exponential\",\n\t\t\t\t\"stops\": [\n\t\t\t\t\t[\n\t\t\t\t\t\t0,\n\t\t\t\t\t\t12\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t50,\n\t\t\t\t\t\t14\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t100,\n\t\t\t\t\t\t16\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t200,\n\t\t\t\t\t\t18\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t400,\n\t\t\t\t\t\t20\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t800,\n\t\t\t\t\t\t22\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t1200,\n\t\t\t\t\t\t24\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t1600,\n\t\t\t\t\t\t26\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t2000,\n\t\t\t\t\t\t28\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t2500,\n\t\t\t\t\t\t30\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t3000,\n\t\t\t\t\t\t32\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t4000,\n\t\t\t\t\t\t34\n\t\t\t\t\t],\n\t\t\t\t\t[\n\t\t\t\t\t\t5000,\n\t\t\t\t\t\t36\n\t\t\t\t\t]\n\t\t\t\t]\n\t\t\t},\n\t\t\t\"circle-color\": \"rgba(130, 130, 130, 0.7)\"\n\t\t}\n\t},\n\t{\n\t\t\"id\": \"resources-cluster-count-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"type\": \"symbol\",\n\t\t\"source\": \"resources-c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"source-layer\": \"c444eb18-742e-11ea-b4d0-02e7594ce0a0\",\n\t\t\"layout\": {\n\t\t\t\"text-field\": \"{total}\",\n\t\t\t\"text-size\": 10\n\t\t},\n\t\t\"paint\": {\n\t\t\t\"text-color\": \"#fff\"\n\t\t},\n\t\t\"filter\": [\n\t\t\t\"all\",\n\t\t\t[\n\t\t\t\t\">\",\n\t\t\t\t\"total\",\n\t\t\t\t1\n\t\t\t]\n\t\t]\n\t}\n]",
-                        "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
-                        "haloRadius": 4,
-                        "haloWeight": 4,
-                        "layerActivated": true,
-                        "layerIcon": "",
-                        "layerLegend": "",
-                        "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
-                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
-                        "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "radius": 2,
-                        "simplification": 0.3,
-                        "weight": 2
-                    },
-                    "datatype": "geojson-feature-collection",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Grid Square Geometry",
-                    "nodegroup_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
-                    "nodeid": "c444eb18-742e-11ea-b4d0-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies",
-                    "sortorder": 0
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "relatable_resource_model_ids": [
-                "e98e1cee-c38b-11ea-9026-02e7594ce0a0",
-                "6c4f0703-c381-11ea-9026-02e7594ce0a0",
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
                 "35b99cb7-379a-11ea-9989-06f597a7d5ce",
+                "6c4f0703-c381-11ea-9026-02e7594ce0a0",
+                "34cfe98e-c2c0-11ea-9026-02e7594ce0a0",
                 "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "34cfe98e-c2c0-11ea-9026-02e7594ce0a0"
+                "f6235ff1-f992-11e9-b345-06f597a7d5ce"
             ],
             "resource_2_resource_constraints": [],
             "root": {
