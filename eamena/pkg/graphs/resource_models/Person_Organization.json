@@ -107,7 +107,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Actor Role Type",
                     "nodegroup_id": "e98e1d0d-c38b-11ea-9026-02e7594ce0a0",
                     "sortorder": null,
@@ -1013,7 +1013,7 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "last_value": "47",
+                        "last_value": "45",
                         "prefix": "ACTOR-",
                         "selected_nodegroup": "e98e1d04-c38b-11ea-9026-02e7594ce0a0",
                         "starting_value": "0000001",

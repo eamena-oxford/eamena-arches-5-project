@@ -903,7 +903,7 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "last_value": "7",
+                        "last_value": "6",
                         "prefix": "COMPONENT-",
                         "selected_nodegroup": "c86fdfe8-cb7e-11ea-a292-02e7594ce0a0",
                         "starting_value": "0000001",
@@ -1603,7 +1603,7 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "dadc73c7-8bb8-4e5c-b3f0-1a0de62b3e89"
                     },
                     "datatype": "concept",
                     "description": null,
