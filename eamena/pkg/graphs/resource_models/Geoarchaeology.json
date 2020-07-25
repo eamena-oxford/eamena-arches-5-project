@@ -4441,26 +4441,6 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "f3883756-f132-4f97-b4a4-4b5a7eeae693"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "DateMIS",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Marine Isotope Stages",
-                    "nodegroup_id": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0",
-                    "nodeid": "f264eb92-abf6-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "graphid": [
                             "f6235ff1-f992-11e9-b345-06f597a7d5ce"
                         ],
@@ -4523,26 +4503,6 @@
                     "name": "Investigator Role Type",
                     "nodegroup_id": "5297faa5-8e16-11ea-a6a6-02e7594ce0a0",
                     "nodeid": "40c49e8c-cc08-11ea-a292-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "d3213795-cdf1-4603-beb9-6aaaca18ecee"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "Evd_Source",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Source of Evidence Type",
-                    "nodegroup_id": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "2e24cefe-8f7d-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
@@ -4700,26 +4660,6 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c8c7bba6-8a2b-406f-a585-bd4ffc3c16a1"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "TopoType",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Topography Type",
-                    "nodegroup_id": "0eef8b2d-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b34-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "graphid": [
                             "ccbd1537-ac5e-11e6-84a5-026d961c88e6"
                         ],
@@ -4818,6 +4758,26 @@
                 },
                 {
                     "config": {
+                        "rdmCollection": "f3883756-f132-4f97-b4a4-4b5a7eeae693"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DateMIS",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Marine Isotope Stages",
+                    "nodegroup_id": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0",
+                    "nodeid": "f264eb92-abf6-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
                         "rdmCollection": "a79da6da-f3d2-42e7-af00-0a52ff4476bc"
                     },
                     "datatype": "concept",
@@ -4832,6 +4792,46 @@
                     "name": "Process Indicator/Evidence of Type",
                     "nodegroup_id": "4f7003ee-99a5-11ea-b04a-02e7594ce0a0",
                     "nodeid": "9e035d58-99a5-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "d3213795-cdf1-4603-beb9-6aaaca18ecee"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Evd_Source",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Source of Evidence Type",
+                    "nodegroup_id": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "2e24cefe-8f7d-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "c8c7bba6-8a2b-406f-a585-bd4ffc3c16a1"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "TopoType",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Topography Type",
+                    "nodegroup_id": "0eef8b2d-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b34-8fa4-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
@@ -5030,26 +5030,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": {
-                        "rdmCollection": "fb8fb8a7-0d65-43cb-9fa5-9d881e98e714"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "Deposition",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Depositional Process",
-                    "nodegroup_id": "0eef8b2a-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b3a-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O14i_is_initialized_by",
-                    "sortorder": 0
-                },
-                {
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
@@ -5231,26 +5211,6 @@
                     "nodeid": "e1a112c2-b088-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "12f6c3e2-7b32-4429-866a-126575b2e89b"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "FtTransTyp",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Feature Sediment Transition",
-                    "nodegroup_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "42402ac4-aa39-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
                     "sortorder": 0
                 },
                 {
@@ -5478,6 +5438,26 @@
                 },
                 {
                     "config": {
+                        "rdmCollection": "c13e9c57-3aad-4975-b9af-8ffaa63aab88"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "GeomType",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geometry Qualifier",
+                    "nodegroup_id": "6c5720fd-c7f2-11ea-a292-02e7594ce0a0",
+                    "nodeid": "6c572101-c7f2-11ea-a292-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
                         "rdmCollection": "3eabad85-322c-4543-984a-474fd4766cad"
                     },
                     "datatype": "concept",
@@ -5494,6 +5474,26 @@
                     "nodeid": "0eef8b37-8fa4-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "fb8fb8a7-0d65-43cb-9fa5-9d881e98e714"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Deposition",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Depositional Process",
+                    "nodegroup_id": "0eef8b2a-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b3a-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O14i_is_initialized_by",
                     "sortorder": 0
                 },
                 {
@@ -5518,22 +5518,22 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "c13e9c57-3aad-4975-b9af-8ffaa63aab88"
+                        "rdmCollection": "12f6c3e2-7b32-4429-866a-126575b2e89b"
                     },
-                    "datatype": "concept-list",
+                    "datatype": "concept",
                     "description": null,
                     "exportable": true,
-                    "fieldname": "GeomType",
+                    "fieldname": "FtTransTyp",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Geometry Qualifier",
-                    "nodegroup_id": "6c5720fd-c7f2-11ea-a292-02e7594ce0a0",
-                    "nodeid": "6c572101-c7f2-11ea-a292-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "name": "Feature Sediment Transition",
+                    "nodegroup_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "42402ac4-aa39-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
                     "sortorder": 0
                 },
                 {
@@ -5637,6 +5637,26 @@
                     "nodeid": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "0b0a7e8a-9dcf-42ce-96ae-fbce687fa448"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "WaveClime",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Wave Climate",
+                    "nodegroup_id": "0eef8b27-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b35-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
                 },
                 {
@@ -5799,46 +5819,6 @@
                     "nodeid": "c893c870-8fb2-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "0b0a7e8a-9dcf-42ce-96ae-fbce687fa448"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "WaveClime",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Wave Climate",
-                    "nodegroup_id": "0eef8b27-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b35-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "0e8e1ee1-b484-4c25-b2ef-7e43022d79b4"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "DateQuat",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Quaternary Divisions",
-                    "nodegroup_id": "0863ccf8-8f76-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "3650a276-8f76-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
                     "sortorder": 0
                 },
                 {
@@ -6150,26 +6130,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": {
-                        "rdmCollection": "94e54605-6031-4dd6-bad2-29e32956c6df"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "ThreatType",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Threat Cause Type",
-                    "nodegroup_id": "ea8af488-b15a-11ea-9b1f-02e7594ce0a0",
-                    "nodeid": "ea8af4a0-b15a-11ea-9b1f-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
-                    "sortorder": 0
-                },
-                {
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
@@ -6221,6 +6181,46 @@
                     "nodeid": "ea8af473-b15a-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E5_Event",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O14i_is_initialized_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "94e54605-6031-4dd6-bad2-29e32956c6df"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "ThreatType",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Threat Cause Type",
+                    "nodegroup_id": "ea8af488-b15a-11ea-9b1f-02e7594ce0a0",
+                    "nodeid": "ea8af4a0-b15a-11ea-9b1f-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "0e8e1ee1-b484-4c25-b2ef-7e43022d79b4"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DateQuat",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Quaternary Divisions",
+                    "nodegroup_id": "0863ccf8-8f76-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "3650a276-8f76-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
                     "sortorder": 0
                 },
                 {
@@ -6444,26 +6444,6 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "d7006a38-4cce-413d-910f-cd3a4b834421"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "FtLndfrTyp",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Feature Landform Type",
-                    "nodegroup_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "12afd3e2-8f9d-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "rdmCollection": "19ee634f-b21a-4040-977c-3a54e5638155"
                     },
                     "datatype": "concept",
@@ -6673,26 +6653,6 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "13e07cf0-7582-47dd-ab56-b295ecd6baad"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "Interpret",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Feature Interpretation Type",
-                    "nodegroup_id": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "267ece34-8fa0-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "fuzzy_day_padding": "365",
                         "fuzzy_month_padding": "11",
                         "fuzzy_season_padding": 12,
@@ -6775,6 +6735,46 @@
                     "nodeid": "ea8af494-b15a-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "13e07cf0-7582-47dd-ab56-b295ecd6baad"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Interpret",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Interpretation Type",
+                    "nodegroup_id": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "267ece34-8fa0-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "d7006a38-4cce-413d-910f-cd3a4b834421"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "FtLndfrTyp",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Landform Type",
+                    "nodegroup_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "12afd3e2-8f9d-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
                     "sortorder": 0
                 },
                 {
