@@ -1,0 +1,7 @@
+{
+    "Heritage Place": {
+        "v3_entitytypeid": "HERITAGE_PLACE.E27",
+        "v3_nodes_csv": "HERITAGE_PLACE.E27_nodes.csv",
+        "v3_v4_node_lookup": "HERITAGE_PLACE.E27_v4_lookup.csv"
+    }
+}

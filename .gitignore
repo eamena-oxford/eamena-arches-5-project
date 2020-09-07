@@ -1,4 +1,5 @@
 *.pyc
+ciim.log
 eamena/media/packages
 eamena/logs/*.log
 eamena/uploadedfiles

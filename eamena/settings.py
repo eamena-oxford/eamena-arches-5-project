@@ -15,6 +15,8 @@ APP_NAME = 'eamena'
 APP_ROOT = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 STATICFILES_DIRS =  (os.path.join(APP_ROOT, 'media'),) + STATICFILES_DIRS
 
+PACKAGE_DIR = os.path.join(os.path.dirname(APP_ROOT),'eamena/pkg')
+
 DATATYPE_LOCATIONS.append('eamena.datatypes')
 FUNCTION_LOCATIONS.append('eamena.functions')
 SEARCH_COMPONENT_LOCATIONS.append('eamena.search_components')
@@ -87,7 +89,7 @@ INSTALLED_APPS = (
     'eamena',
 )
 
-ALLOWED_HOSTS = ['34.245.67.171', '172.31.13.226']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'eamena.wsgi.application'

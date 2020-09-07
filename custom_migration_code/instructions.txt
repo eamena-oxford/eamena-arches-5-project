@@ -1,0 +1,17 @@
+----Instructions for eamena migration and processing------
+
+1. run the pre-migration script on raw v3 data 'python ./custom_migration_code/pre_migration_processing.py'
+	- this will convert EFFECT_TYPE_x to EFFECT_TYPE etc... this is required to run the actual migration
+	- this runs off a file path set at the top of the script. 
+
+2. run the migration 'python manage.py v3 write-v4-json' this will convert the data in pkg/v3data/business_data
+	- it will generate a new file in pkg/business_data/ with a matching file name
+
+3. run the postmigration code 'python ./custom_migration_code/post_migration_processing.py' on the above file
+	- this runs off one file path (opens and saves to the same file) set at the top of the file
+	- it will run through all the functions in the script that are defined in their own files
+
+4. You can uncomment grid id and people/organisation rule. Requires the matching csv (use the csv file path in the function call)
+	- should add these csvs to this directory/git repo
+
+
