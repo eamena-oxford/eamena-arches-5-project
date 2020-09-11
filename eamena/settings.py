@@ -87,7 +87,7 @@ INSTALLED_APPS = (
     'eamena',
 )
 
-ALLOWED_HOSTS = ['34.245.67.171', '172.31.13.226']
+ALLOWED_HOSTS = ['52.208.0.118', '172.31.41.102']
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'eamena.wsgi.application'

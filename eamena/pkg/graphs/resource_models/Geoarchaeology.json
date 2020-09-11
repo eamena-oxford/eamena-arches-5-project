@@ -1027,6 +1027,32 @@
             ],
             "cards_x_nodes_x_widgets": [
                 {
+                    "card_id": "88856d85-b088-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "label": "Other Related Site",
+                        "placeholder": ""
+                    },
+                    "id": "88856d96-b088-11ea-9b1f-02e7594ce0a0",
+                    "label": "Other Related Site",
+                    "node_id": "88856d83-b088-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "e801a2b0-8fad-11ea-a6a6-02e7594ce0a0",
+                    "config": {
+                        "label": "Related Information Resource",
+                        "placeholder": ""
+                    },
+                    "id": "fcede34f-abd4-11ea-b04a-02e7594ce0a0",
+                    "label": "Related Information Resource",
+                    "node_id": "43501e28-8f7d-11ea-a6a6-02e7594ce0a0",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
                     "card_id": "ea8af48d-b15a-11ea-9b1f-02e7594ce0a0",
                     "config": {
                         "defaultValue": "",
@@ -2391,32 +2417,6 @@
                     "sortorder": null,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "e801a2b0-8fad-11ea-a6a6-02e7594ce0a0",
-                    "config": {
-                        "label": "Related Information Resource",
-                        "placeholder": ""
-                    },
-                    "id": "fcede34f-abd4-11ea-b04a-02e7594ce0a0",
-                    "label": "Related Information Resource",
-                    "node_id": "43501e28-8f7d-11ea-a6a6-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
-                    "card_id": "88856d85-b088-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "label": "Other Related Site",
-                        "placeholder": ""
-                    },
-                    "id": "88856d96-b088-11ea-9b1f-02e7594ce0a0",
-                    "label": "Other Related Site",
-                    "node_id": "88856d83-b088-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
                     "card_id": "88856d85-b088-11ea-9b1f-02e7594ce0a0",
@@ -3874,7 +3874,7 @@
                     },
                     "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "id": "1ef38ffe-cc2c-11ea-a292-02e7594ce0a0"
+                    "id": "a72bfe45-f372-11ea-afe6-0a5a9a4f6ef7"
                 },
                 {
                     "config": {
@@ -3894,7 +3894,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "id": "1ef38ffd-cc2c-11ea-a292-02e7594ce0a0"
+                    "id": "a72bfe46-f372-11ea-afe6-0a5a9a4f6ef7"
                 }
             ],
             "graphid": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
@@ -4110,10 +4110,10 @@
                     "parentnodegroup_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0"
                 },
                 {
-                    "cardinality": "n",
+                    "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "parentnodegroup_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0"
+                    "nodegroupid": "0eef8b24-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "parentnodegroup_id": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0"
                 },
                 {
                     "cardinality": "n",
@@ -4176,10 +4176,10 @@
                     "parentnodegroup_id": "bfd9064c-8f75-11ea-a6a6-02e7594ce0a0"
                 },
                 {
-                    "cardinality": "1",
+                    "cardinality": "n",
                     "legacygroupid": null,
-                    "nodegroupid": "0eef8b24-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "parentnodegroup_id": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0"
+                    "nodegroupid": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "parentnodegroup_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0"
                 },
                 {
                     "cardinality": "1",
@@ -4189,24 +4189,6 @@
                 }
             ],
             "nodes": [
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Land Cover",
-                    "nodegroup_id": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5_consists_of",
-                    "sortorder": 0
-                },
                 {
                     "config": {
                         "rdmCollection": "4bcc3146-5a82-43cc-83cd-648749498d17"
@@ -4241,6 +4223,24 @@
                     "name": "Bedrock Geology",
                     "nodegroup_id": "0eef8b24-8fa4-11ea-a6a6-02e7594ce0a0",
                     "nodeid": "0eef8b24-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5_consists_of",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Land Cover",
+                    "nodegroup_id": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5_consists_of",
                     "sortorder": 0
@@ -7004,14 +7004,7 @@
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "relatable_resource_model_ids": [
-                "77d18973-7428-11ea-b4d0-02e7594ce0a0",
-                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "e98e1cee-c38b-11ea-9026-02e7594ce0a0",
-                "6c4f0703-c381-11ea-9026-02e7594ce0a0",
-                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "34cfe98e-c2c0-11ea-9026-02e7594ce0a0",
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce"
+                "34cfe98e-c2c0-11ea-9026-02e7594ce0a0"
             ],
             "resource_2_resource_constraints": [],
             "root": {
@@ -7041,6 +7034,6 @@
         "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
         "git hash": "f2bb26fae 2020-07-06 13:33:44 +0100",
         "os": "Linux",
-        "os version": "5.3.0-1030-aws"
+        "os version": "5.3.0-1035-aws"
     }
 }

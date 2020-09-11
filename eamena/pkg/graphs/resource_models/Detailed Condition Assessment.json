@@ -68,7 +68,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Threat and Risk Assessor",
                     "nodegroup_id": "300bdc74-cdb9-11ea-a292-02e7594ce0a0",
                     "sortorder": null,
@@ -218,7 +218,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Overall Condition",
                     "nodegroup_id": "b5351ef4-f995-11e9-b345-06f597a7d5ce",
                     "sortorder": 0,
@@ -237,7 +237,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Threat Event",
                     "nodegroup_id": "b23d365a-f995-11e9-b345-06f597a7d5ce",
                     "sortorder": 0,
@@ -288,7 +288,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "CONDITION ID",
                     "nodegroup_id": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
                     "sortorder": 9,
@@ -326,7 +326,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Overall Damage Severity Type",
                     "nodegroup_id": "aea63593-f995-11e9-b345-06f597a7d5ce",
                     "sortorder": 2,
@@ -352,7 +352,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Overall Condition Assessment",
                     "nodegroup_id": "b5351eeb-f995-11e9-b345-06f597a7d5ce",
                     "sortorder": 6,
@@ -449,7 +449,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Damage Assessment",
                     "nodegroup_id": "aea63579-f995-11e9-b345-06f597a7d5ce",
                     "sortorder": 4,
@@ -501,7 +501,7 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": "Threat and Risk Assessment",
                     "nodegroup_id": "b23d3647-f995-11e9-b345-06f597a7d5ce",
                     "sortorder": 5,
@@ -2604,7 +2604,7 @@
                     },
                     "function_id": "2cc07b0a-adbd-4721-86ce-dad1699caa86",
                     "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                    "id": "225fb21e-cc2c-11ea-a292-02e7594ce0a0"
+                    "id": "aa6947da-f372-11ea-afe6-0a5a9a4f6ef7"
                 },
                 {
                     "config": {
@@ -2624,12 +2624,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                    "id": "225fb21d-cc2c-11ea-a292-02e7594ce0a0"
+                    "id": "aa6947db-f372-11ea-afe6-0a5a9a4f6ef7"
                 }
             ],
             "graphid": "f6235ff1-f992-11e9-b345-06f597a7d5ce",
             "iconclass": "fa fa-pencil-square-o",
-            "is_editable": false,
+            "is_editable": true,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -2821,7 +2821,7 @@
                     "nodeid": "d583c0f3-f995-11e9-b345-06f597a7d5ce",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E16_Measurement",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
-                    "sortorder": 8
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -2851,7 +2851,7 @@
                     "nodeid": "3444ed9f-b0b8-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "sortorder": 9
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -2869,7 +2869,7 @@
                     "nodeid": "b23d3647-f995-11e9-b345-06f597a7d5ce",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S5_Inference_Making",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -2887,7 +2887,7 @@
                     "nodeid": "d7636da1-f995-11e9-b345-06f597a7d5ce",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E11_Modification",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by",
-                    "sortorder": 5
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -2909,7 +2909,7 @@
                     "nodeid": "fe048bf0-80dc-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by",
-                    "sortorder": 7
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -2947,7 +2947,7 @@
                     "nodeid": "aea63579-f995-11e9-b345-06f597a7d5ce",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
-                    "sortorder": 6
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -3429,7 +3429,7 @@
                     "nodeid": "f9587707-b0ae-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17_was_motivated_by",
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -3882,7 +3882,7 @@
                     "nodeid": "3444eda5-b0b8-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -3994,7 +3994,7 @@
                     "nodeid": "b5351eeb-f995-11e9-b345-06f597a7d5ce",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -4248,7 +4248,7 @@
                     "nodeid": "3444eda2-b0b8-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S4_Observation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -4348,7 +4348,7 @@
                     "nodeid": "34894dc2-8a3e-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -5038,13 +5038,6 @@
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "relatable_resource_model_ids": [
-                "6c4f0703-c381-11ea-9026-02e7594ce0a0",
-                "77d18973-7428-11ea-b4d0-02e7594ce0a0",
-                "35b99cb7-379a-11ea-9989-06f597a7d5ce",
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
-                "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                "e98e1cee-c38b-11ea-9026-02e7594ce0a0",
-                "f6235ff1-f992-11e9-b345-06f597a7d5ce",
                 "34cfe98e-c2c0-11ea-9026-02e7594ce0a0"
             ],
             "resource_2_resource_constraints": [],
@@ -5075,6 +5068,6 @@
         "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
         "git hash": "f2bb26fae 2020-07-06 13:33:44 +0100",
         "os": "Linux",
-        "os version": "5.3.0-1030-aws"
+        "os version": "5.3.0-1035-aws"
     }
 }
