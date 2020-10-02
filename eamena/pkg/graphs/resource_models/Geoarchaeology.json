@@ -557,6 +557,44 @@
                 },
                 {
                     "active": true,
+                    "cardid": "ea8af48a-b15a-11ea-9b1f-02e7594ce0a0",
+                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Threats",
+                    "nodegroup_id": "ea8af488-b15a-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 3,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "2ce1f3fe-98db-11ea-b04a-02e7594ce0a0",
+                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Description Assignment",
+                    "nodegroup_id": "2ce1f3fc-98db-11ea-b04a-02e7594ce0a0",
+                    "sortorder": 2,
+                    "visible": true
+                },
+                {
+                    "active": true,
                     "cardid": "2ce1f404-98db-11ea-b04a-02e7594ce0a0",
                     "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
                     "config": {
@@ -581,6 +619,25 @@
                     "name": "Resource Summary",
                     "nodegroup_id": "2ce1f402-98db-11ea-b04a-02e7594ce0a0",
                     "sortorder": 1,
+                    "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "1cecc897-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
+                    "config": null,
+                    "constraints": [],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Geoarchaeological Timespace",
+                    "nodegroup_id": "1cecc895-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "sortorder": 4,
                     "visible": true
                 },
                 {
@@ -730,89 +787,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "88856d8b-b088-11ea-9b1f-02e7594ce0a0",
-                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
-                    "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "88856d8b-b088-11ea-9b1f-02e7594ce0a0",
-                            "constraintid": "640ece28-6db1-4061-bd94-c76107ef00f7",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Resource Relationships",
-                    "nodegroup_id": "88856d89-b088-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 7,
-                    "visible": false
-                },
-                {
-                    "active": true,
-                    "cardid": "ea8af48a-b15a-11ea-9b1f-02e7594ce0a0",
-                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Threats",
-                    "nodegroup_id": "ea8af488-b15a-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 3,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "2ce1f3fe-98db-11ea-b04a-02e7594ce0a0",
-                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Description Assignment",
-                    "nodegroup_id": "2ce1f3fc-98db-11ea-b04a-02e7594ce0a0",
-                    "sortorder": 2,
-                    "visible": true
-                },
-                {
-                    "active": true,
-                    "cardid": "1cecc897-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
-                    "config": null,
-                    "constraints": [],
-                    "cssclass": null,
-                    "description": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "helpenabled": false,
-                    "helptext": null,
-                    "helptitle": null,
-                    "instructions": null,
-                    "is_editable": true,
-                    "name": "Geoarchaeological Timespace",
-                    "nodegroup_id": "1cecc895-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "sortorder": 4,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "0ff9bdfa-ca9d-11ea-a292-02e7594ce0a0",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -950,6 +924,32 @@
                 },
                 {
                     "active": true,
+                    "cardid": "88856d8b-b088-11ea-9b1f-02e7594ce0a0",
+                    "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "88856d8b-b088-11ea-9b1f-02e7594ce0a0",
+                            "constraintid": "640ece28-6db1-4061-bd94-c76107ef00f7",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "helpenabled": false,
+                    "helptext": null,
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Resource Relationships",
+                    "nodegroup_id": "88856d89-b088-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 7,
+                    "visible": false
+                },
+                {
+                    "active": true,
                     "cardid": "e801a2b0-8fad-11ea-a6a6-02e7594ce0a0",
                     "component_id": "60e4e022-e2ba-40a0-948d-0538e27fbe1c",
                     "config": null,
@@ -1026,6 +1026,146 @@
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "37504f74-8fae-11ea-a6a6-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Feature Interpretation Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "099ec019-abd5-11ea-b04a-02e7594ce0a0",
+                    "label": "Feature Interpretation Type",
+                    "node_id": "267ece34-8fa0-11ea-a6a6-02e7594ce0a0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "ea8af48d-b15a-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Cause",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "ea8af4b1-b15a-11ea-9b1f-02e7594ce0a0",
+                    "label": "Cause",
+                    "node_id": "ea8af49d-b15a-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "ea8af48d-b15a-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Overall Site Condition ",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "ea8af4af-b15a-11ea-9b1f-02e7594ce0a0",
+                    "label": "Overall Site Condition ",
+                    "node_id": "ea8af482-b15a-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "ea8af481-b15a-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Disturbance Date From",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "717f430d-b191-11ea-9b1f-02e7594ce0a0",
+                    "label": "Disturbance Date From",
+                    "node_id": "ea8af497-b15a-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "d146227a-b088-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Geoarchaeology Relationship Comments",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "width": "100%"
+                    },
+                    "id": "63e12b6c-b089-11ea-9b1f-02e7594ce0a0",
+                    "label": "Geoarchaeology Relationship Comments",
+                    "node_id": "1406f790-b089-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "d146227a-b088-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "label": "Related Geoarchaeology Resource",
+                        "placeholder": ""
+                    },
+                    "id": "63e12b66-b089-11ea-9b1f-02e7594ce0a0",
+                    "label": "Related Geoarchaeology Resource",
+                    "node_id": "9cfe7e5c-b088-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
+                {
+                    "card_id": "d146227a-b088-11ea-9b1f-02e7594ce0a0",
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "defaultValue": "",
+                        "label": "Relationship to Date",
+                        "maxDate": false,
+                        "minDate": false,
+                        "placeholder": "Enter date",
+                        "viewMode": "days"
+                    },
+                    "id": "63e12b6a-b089-11ea-9b1f-02e7594ce0a0",
+                    "label": "Relationship to Date",
+                    "node_id": "017047ee-b089-11ea-9b1f-02e7594ce0a0",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                },
+                {
+                    "card_id": "e801a2b0-8fad-11ea-a6a6-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Source of Evidence Type",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "fcede34d-abd4-11ea-b04a-02e7594ce0a0",
+                    "label": "Source of Evidence Type",
+                    "node_id": "2e24cefe-8f7d-11ea-a6a6-02e7594ce0a0",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
+                {
+                    "card_id": "da76c756-8fad-11ea-a6a6-02e7594ce0a0",
+                    "config": {
+                        "defaultValue": null,
+                        "label": "Quaternary Date Certainty",
+                        "options": [],
+                        "placeholder": "Select an option"
+                    },
+                    "id": "832ec97b-abe9-11ea-b04a-02e7594ce0a0",
+                    "label": "Quaternary Date Certainty",
+                    "node_id": "4beffbc2-8f76-11ea-a6a6-02e7594ce0a0",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                },
                 {
                     "card_id": "0eef8b26-8fa4-11ea-a6a6-02e7594ce0a0",
                     "config": {
@@ -1203,21 +1343,6 @@
                     "label": "Feature Interpretation Type Certainty",
                     "node_id": "301e96cc-8fa0-11ea-a6a6-02e7594ce0a0",
                     "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "37504f74-8fae-11ea-a6a6-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Feature Interpretation Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "099ec019-abd5-11ea-b04a-02e7594ce0a0",
-                    "label": "Feature Interpretation Type",
-                    "node_id": "267ece34-8fa0-11ea-a6a6-02e7594ce0a0",
-                    "sortorder": 0,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -1442,24 +1567,6 @@
                     "config": {
                         "dateFormat": "YYYY-MM-DD",
                         "defaultValue": "",
-                        "label": "Disturbance Date From",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "717f430d-b191-11ea-9b1f-02e7594ce0a0",
-                    "label": "Disturbance Date From",
-                    "node_id": "ea8af497-b15a-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "ea8af481-b15a-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
                         "label": "Disturbance Date Occurred Before",
                         "maxDate": false,
                         "minDate": false,
@@ -1658,83 +1765,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "d146227a-b088-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Geoarchaeology Relationship Comments",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "63e12b6c-b089-11ea-9b1f-02e7594ce0a0",
-                    "label": "Geoarchaeology Relationship Comments",
-                    "node_id": "1406f790-b089-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 3,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "d146227a-b088-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "label": "Related Geoarchaeology Resource",
-                        "placeholder": ""
-                    },
-                    "id": "63e12b66-b089-11ea-9b1f-02e7594ce0a0",
-                    "label": "Related Geoarchaeology Resource",
-                    "node_id": "9cfe7e5c-b088-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
-                    "card_id": "d146227a-b088-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD",
-                        "defaultValue": "",
-                        "label": "Relationship to Date",
-                        "maxDate": false,
-                        "minDate": false,
-                        "placeholder": "Enter date",
-                        "viewMode": "days"
-                    },
-                    "id": "63e12b6a-b089-11ea-9b1f-02e7594ce0a0",
-                    "label": "Relationship to Date",
-                    "node_id": "017047ee-b089-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "e801a2b0-8fad-11ea-a6a6-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Source of Evidence Type",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "fcede34d-abd4-11ea-b04a-02e7594ce0a0",
-                    "label": "Source of Evidence Type",
-                    "node_id": "2e24cefe-8f7d-11ea-a6a6-02e7594ce0a0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "da76c756-8fad-11ea-a6a6-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Quaternary Date Certainty",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "832ec97b-abe9-11ea-b04a-02e7594ce0a0",
-                    "label": "Quaternary Date Certainty",
-                    "node_id": "4beffbc2-8f76-11ea-a6a6-02e7594ce0a0",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "ea8af48d-b15a-11ea-9b1f-02e7594ce0a0",
@@ -2104,36 +2134,6 @@
                     "sortorder": 3,
                     "visible": false,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "ea8af48d-b15a-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Cause",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "ea8af4b1-b15a-11ea-9b1f-02e7594ce0a0",
-                    "label": "Cause",
-                    "node_id": "ea8af49d-b15a-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                },
-                {
-                    "card_id": "ea8af48d-b15a-11ea-9b1f-02e7594ce0a0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Overall Site Condition ",
-                        "options": [],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "ea8af4af-b15a-11ea-9b1f-02e7594ce0a0",
-                    "label": "Overall Site Condition ",
-                    "node_id": "ea8af482-b15a-11ea-9b1f-02e7594ce0a0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
                 {
                     "card_id": "1cecc897-f65c-11ea-afe6-0a5a9a4f6ef7",
@@ -2679,21 +2679,84 @@
             "edges": [
                 {
                     "description": null,
+                    "domainnode_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "f4445435-8f9f-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
+                    "rangenode_id": "f4445434-8f9f-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5297faa5-8e16-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "5297fab4-8e16-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P19i_was_made_for",
+                    "rangenode_id": "5297faaa-8e16-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1cecc895-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "edgeid": "1cecc8ab-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "rangenode_id": "1cecc898-f65c-11ea-afe6-0a5a9a4f6ef7"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1cecc89b-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "edgeid": "1cecc8ac-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+                    "rangenode_id": "1cecc89f-f65c-11ea-afe6-0a5a9a4f6ef7"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1cecc89b-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "edgeid": "1cecc8ad-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
+                    "rangenode_id": "1cecc89c-f65c-11ea-afe6-0a5a9a4f6ef7"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "73f48686-99a5-11ea-b04a-02e7594ce0a0",
+                    "edgeid": "8b38c407-99a5-11ea-b04a-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
+                    "rangenode_id": "8b38c406-99a5-11ea-b04a-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "81f2e5aa-8f75-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "99f876cf-8f75-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L47_has_comment",
+                    "rangenode_id": "99f876ce-8f75-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ea8af47f-b15a-11ea-9b1f-02e7594ce0a0",
+                    "edgeid": "ea8af4d1-b15a-11ea-9b1f-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "rangenode_id": "ea8af49f-b15a-11ea-9b1f-02e7594ce0a0"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "6c572104-c7f2-11ea-a292-02e7594ce0a0",
                     "edgeid": "6c57210b-c7f2-11ea-a292-02e7594ce0a0",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "rangenode_id": "6c572101-c7f2-11ea-a292-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "ea8af498-b15a-11ea-9b1f-02e7594ce0a0",
-                    "edgeid": "ea8af4d4-b15a-11ea-9b1f-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
-                    "rangenode_id": "ea8af49e-b15a-11ea-9b1f-02e7594ce0a0"
                 },
                 {
                     "description": null,
@@ -2715,6 +2778,24 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "0eef8b36-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "0eef8b61-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
+                    "rangenode_id": "0eef8b38-8fa4-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ea8af467-b15a-11ea-9b1f-02e7594ce0a0",
+                    "edgeid": "ea8af4d3-b15a-11ea-9b1f-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
+                    "rangenode_id": "ea8af47f-b15a-11ea-9b1f-02e7594ce0a0"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "ea8af49a-b15a-11ea-9b1f-02e7594ce0a0",
                     "edgeid": "ea8af4d7-b15a-11ea-9b1f-02e7594ce0a0",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
@@ -2733,21 +2814,12 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "0eef8b36-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "0eef8b61-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "domainnode_id": "ea8af498-b15a-11ea-9b1f-02e7594ce0a0",
+                    "edgeid": "ea8af4d4-b15a-11ea-9b1f-02e7594ce0a0",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
-                    "rangenode_id": "0eef8b38-8fa4-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "ea8af467-b15a-11ea-9b1f-02e7594ce0a0",
-                    "edgeid": "ea8af4d3-b15a-11ea-9b1f-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span",
-                    "rangenode_id": "ea8af47f-b15a-11ea-9b1f-02e7594ce0a0"
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
+                    "rangenode_id": "ea8af49e-b15a-11ea-9b1f-02e7594ce0a0"
                 },
                 {
                     "description": null,
@@ -3021,42 +3093,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "2ce1f3f6-98db-11ea-b04a-02e7594ce0a0",
-                    "edgeid": "2ce1f425-98db-11ea-b04a-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "2ce1f40d-98db-11ea-b04a-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "0eef8b4e-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of",
-                    "rangenode_id": "0eef8b27-8fa4-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "43501e29-8f7d-11ea-a6a6-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in",
-                    "rangenode_id": "43501e28-8f7d-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "6c572100-c7f2-11ea-a292-02e7594ce0a0",
-                    "edgeid": "6c572110-c7f2-11ea-a292-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
-                    "rangenode_id": "6c572103-c7f2-11ea-a292-02e7594ce0a0"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
                     "edgeid": "267ece35-8fa0-11ea-a6a6-02e7594ce0a0",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
@@ -3153,6 +3189,42 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
                     "rangenode_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2ce1f3f6-98db-11ea-b04a-02e7594ce0a0",
+                    "edgeid": "2ce1f425-98db-11ea-b04a-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "2ce1f40d-98db-11ea-b04a-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "0eef8b4e-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of",
+                    "rangenode_id": "0eef8b27-8fa4-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "43501e29-8f7d-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in",
+                    "rangenode_id": "43501e28-8f7d-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "6c572100-c7f2-11ea-a292-02e7594ce0a0",
+                    "edgeid": "6c572110-c7f2-11ea-a292-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P16_used_specific_object",
+                    "rangenode_id": "6c572103-c7f2-11ea-a292-02e7594ce0a0"
                 },
                 {
                     "description": null,
@@ -3345,84 +3417,12 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "f4445435-8f9f-11ea-a6a6-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
-                    "rangenode_id": "f4445434-8f9f-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "5297faa5-8e16-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "5297fab4-8e16-11ea-a6a6-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P19i_was_made_for",
-                    "rangenode_id": "5297faaa-8e16-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "6c572100-c7f2-11ea-a292-02e7594ce0a0",
                     "edgeid": "6c57210f-c7f2-11ea-a292-02e7594ce0a0",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P3_has_note",
                     "rangenode_id": "6c572105-c7f2-11ea-a292-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "1cecc895-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "edgeid": "1cecc8ab-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
-                    "rangenode_id": "1cecc898-f65c-11ea-afe6-0a5a9a4f6ef7"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "1cecc89b-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "edgeid": "1cecc8ac-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
-                    "rangenode_id": "1cecc89f-f65c-11ea-afe6-0a5a9a4f6ef7"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "1cecc89b-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "edgeid": "1cecc8ad-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P67_refers_to",
-                    "rangenode_id": "1cecc89c-f65c-11ea-afe6-0a5a9a4f6ef7"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "73f48686-99a5-11ea-b04a-02e7594ce0a0",
-                    "edgeid": "8b38c407-99a5-11ea-b04a-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
-                    "rangenode_id": "8b38c406-99a5-11ea-b04a-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "81f2e5aa-8f75-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "99f876cf-8f75-11ea-a6a6-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L47_has_comment",
-                    "rangenode_id": "99f876ce-8f75-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "ea8af47f-b15a-11ea-9b1f-02e7594ce0a0",
-                    "edgeid": "ea8af4d1-b15a-11ea-9b1f-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
-                    "rangenode_id": "ea8af49f-b15a-11ea-9b1f-02e7594ce0a0"
                 },
                 {
                     "description": null,
@@ -3696,6 +3696,51 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "c04789e5-8f9f-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
+                    "rangenode_id": "c04789e4-8f9f-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "0eef8b55-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P5_consists_of",
+                    "rangenode_id": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5297faa9-8e16-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "40c49e8d-cc08-11ea-a292-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "rangenode_id": "40c49e8c-cc08-11ea-a292-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "edgeid": "0eef8b60-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
+                    "rangenode_id": "0eef8b36-8fa4-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "ea8af46a-b15a-11ea-9b1f-02e7594ce0a0",
+                    "edgeid": "ea8af4b9-b15a-11ea-9b1f-02e7594ce0a0",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O14i_is_initialized_by",
+                    "rangenode_id": "ea8af473-b15a-11ea-9b1f-02e7594ce0a0"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "5297faa8-8e16-11ea-a6a6-02e7594ce0a0",
                     "edgeid": "61ad113e-c7f1-11ea-a292-02e7594ce0a0",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
@@ -3747,51 +3792,6 @@
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by",
                     "rangenode_id": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "c04789e5-8f9f-11ea-a6a6-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
-                    "rangenode_id": "c04789e4-8f9f-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "0eef8b55-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P5_consists_of",
-                    "rangenode_id": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "5297faa9-8e16-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "40c49e8d-cc08-11ea-a292-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "rangenode_id": "40c49e8c-cc08-11ea-a292-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "0eef8b1b-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "edgeid": "0eef8b60-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
-                    "rangenode_id": "0eef8b36-8fa4-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "ea8af46a-b15a-11ea-9b1f-02e7594ce0a0",
-                    "edgeid": "ea8af4b9-b15a-11ea-9b1f-02e7594ce0a0",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMsci/O14i_is_initialized_by",
-                    "rangenode_id": "ea8af473-b15a-11ea-9b1f-02e7594ce0a0"
                 },
                 {
                     "description": null,
@@ -3995,7 +3995,7 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "last_value": "15",
+                        "last_value": "16",
                         "prefix": "GEOARCH-",
                         "selected_nodegroup": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
                         "starting_value": "0000001",
@@ -4043,16 +4043,16 @@
                     "parentnodegroup_id": "2ce1f402-98db-11ea-b04a-02e7594ce0a0"
                 },
                 {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "2ce1f3f6-98db-11ea-b04a-02e7594ce0a0",
-                    "parentnodegroup_id": "2ce1f402-98db-11ea-b04a-02e7594ce0a0"
-                },
-                {
                     "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "2ce1f402-98db-11ea-b04a-02e7594ce0a0",
                     "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "2ce1f3f6-98db-11ea-b04a-02e7594ce0a0",
+                    "parentnodegroup_id": "2ce1f402-98db-11ea-b04a-02e7594ce0a0"
                 },
                 {
                     "cardinality": "n",
@@ -4237,18 +4237,6 @@
                 {
                     "cardinality": "1",
                     "legacygroupid": null,
-                    "nodegroupid": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
-                    "nodegroupid": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "parentnodegroup_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0"
-                },
-                {
-                    "cardinality": "1",
-                    "legacygroupid": null,
                     "nodegroupid": "0eef8b24-8fa4-11ea-a6a6-02e7594ce0a0",
                     "parentnodegroup_id": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0"
                 },
@@ -4257,6 +4245,18 @@
                     "legacygroupid": null,
                     "nodegroupid": "0eef8b2a-8fa4-11ea-a6a6-02e7594ce0a0",
                     "parentnodegroup_id": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0"
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "parentnodegroup_id": null
+                },
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "parentnodegroup_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0"
                 },
                 {
                     "cardinality": "1",
@@ -4320,6 +4320,24 @@
                 }
             ],
             "nodes": [
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Threat Inference Making Assessor Name - Actor",
+                    "nodegroup_id": "ea8af488-b15a-11ea-9b1f-02e7594ce0a0",
+                    "nodeid": "ea8af49c-b15a-11ea-9b1f-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 0
+                },
                 {
                     "config": null,
                     "datatype": "semantic",
@@ -4545,44 +4563,6 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Description Assignment",
-                    "nodegroup_id": "2ce1f3fc-98db-11ea-b04a-02e7594ce0a0",
-                    "nodeid": "2ce1f3fc-98db-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "1a2072ce-3d87-4cba-ba5b-9ceb6241d9ff"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "FtSedtCert",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Feature Sediment Type Certainty",
-                    "nodegroup_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "f4445434-8f9f-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -4670,79 +4650,6 @@
                 },
                 {
                     "config": {
-                        "graphs": [],
-                        "rdmCollection": "c3c2eb37-0afa-415b-b96e-083075c4310f"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "Designatn",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Designation",
-                    "nodegroup_id": "aa130451-ca9b-11ea-a292-02e7594ce0a0",
-                    "nodeid": "aa130451-ca9b-11ea-a292-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "graphid": [
-                            "ccbd1537-ac5e-11e6-84a5-026d961c88e6"
-                        ],
-                        "graphs": [
-                            {
-                                "graphid": "e98e1cee-c38b-11ea-9026-02e7594ce0a0",
-                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence",
-                                "name": "Person/Organization",
-                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P74i_is_current_or_former_residence_of"
-                            }
-                        ],
-                        "nodeid": null,
-                        "property": null
-                    },
-                    "datatype": "resource-instance-list",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Threat Inference Making Assessor Name - Actor",
-                    "nodegroup_id": "ea8af488-b15a-11ea-9b1f-02e7594ce0a0",
-                    "nodeid": "ea8af49c-b15a-11ea-9b1f-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "60e4f95d-3716-4bc0-a07b-7806a2591144"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "GeoarchCer",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Overall Geoarchaeological Certainty Value",
-                    "nodegroup_id": "81f2e5aa-8f75-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "99f876ce-8f75-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L47_has_comment",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "rdmCollection": "8fdeb191-1d30-4ac8-a8ef-ef1336e5f8fa"
                     },
                     "datatype": "concept",
@@ -4759,26 +4666,6 @@
                     "nodeid": "cf17a202-c7f2-11ea-a292-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": null
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "DateMIS",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Marine Isotope Stages",
-                    "nodegroup_id": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0",
-                    "nodeid": "f264eb92-abf6-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
                     "sortorder": 0
                 },
                 {
@@ -4819,71 +4706,6 @@
                     "nodeid": "2e24cefe-8f7d-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "0933ae5f-2e95-47c9-9766-9d32c1bd24a8"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "TopoType",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Topography Type",
-                    "nodegroup_id": "0eef8b2d-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b34-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Geography",
-                    "nodegroup_id": "61ad111d-c7f1-11ea-a292-02e7594ce0a0",
-                    "nodeid": "61ad111d-c7f1-11ea-a292-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
-                    "sortorder": 3
-                },
-                {
-                    "config": {
-                        "graphs": [
-                            {
-                                "graphid": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                                "inverseOntologyProperty": "http://www.ics.forth.gr/isl/CRMsci/O7i_is_contained_or_confined",
-                                "name": "Geoarchaeology",
-                                "ontologyProperty": "http://www.ics.forth.gr/isl/CRMsci/O7_contains_or_confines"
-                            }
-                        ]
-                    },
-                    "datatype": "resource-instance",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Related Geoarchaeology/Palaeolandscape",
-                    "nodegroup_id": "e234ac56-b9f4-11ea-9b1f-02e7594ce0a0",
-                    "nodeid": "e234ac56-b9f4-11ea-9b1f-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP2_Phenomenal_Place",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -4959,97 +4781,167 @@
                     "sortorder": 0
                 },
                 {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Description Assignment",
+                    "nodegroup_id": "2ce1f3fc-98db-11ea-b04a-02e7594ce0a0",
+                    "nodeid": "2ce1f3fc-98db-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
+                    "sortorder": 0
+                },
+                {
                     "config": {
-                        "rdmCollection": "17119f94-8d1f-4d08-a544-fe85e2382169"
+                        "rdmCollection": "1a2072ce-3d87-4cba-ba5b-9ceb6241d9ff"
                     },
                     "datatype": "concept",
                     "description": null,
                     "exportable": true,
-                    "fieldname": "InterpCert",
+                    "fieldname": "FtSedtCert",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": false,
-                    "isrequired": true,
+                    "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Feature Interpretation Type Certainty",
-                    "nodegroup_id": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "301e96cc-8fa0-11ea-a6a6-02e7594ce0a0",
+                    "name": "Feature Sediment Type Certainty",
+                    "nodegroup_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "f4445434-8f9f-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                                "inverseOntologyProperty": "http://www.ics.forth.gr/isl/CRMsci/O7i_is_contained_or_confined",
+                                "name": "Geoarchaeology",
+                                "ontologyProperty": "http://www.ics.forth.gr/isl/CRMsci/O7_contains_or_confines"
+                            }
+                        ]
+                    },
+                    "datatype": "resource-instance",
                     "description": null,
                     "exportable": false,
-                    "fieldname": "",
+                    "fieldname": null,
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Environment Assessment",
-                    "nodegroup_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
-                    "sortorder": 4
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Geology",
-                    "nodegroup_id": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of",
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Damage State",
-                    "nodegroup_id": "ea8af46a-b15a-11ea-9b1f-02e7594ce0a0",
-                    "nodeid": "ea8af46a-b15a-11ea-9b1f-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "name": "Related Geoarchaeology/Palaeolandscape",
+                    "nodegroup_id": "e234ac56-b9f4-11ea-9b1f-02e7594ce0a0",
+                    "nodeid": "e234ac56-b9f4-11ea-9b1f-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP2_Phenomenal_Place",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
                     "config": {
-                        "rdmCollection": "cdce49f8-df9b-4936-8608-8b2f03a289c9"
+                        "rdmCollection": null
                     },
                     "datatype": "concept",
                     "description": null,
                     "exportable": true,
-                    "fieldname": "FtLndfrNu",
+                    "fieldname": "DateMIS",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Feature Landform Number Type",
-                    "nodegroup_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "4d3de2a6-8f9d-11ea-a6a6-02e7594ce0a0",
+                    "name": "Marine Isotope Stages",
+                    "nodegroup_id": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0",
+                    "nodeid": "f264eb92-abf6-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "60e4f95d-3716-4bc0-a07b-7806a2591144"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "GeoarchCer",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Overall Geoarchaeological Certainty Value",
+                    "nodegroup_id": "81f2e5aa-8f75-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "99f876ce-8f75-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L47_has_comment",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "0933ae5f-2e95-47c9-9766-9d32c1bd24a8"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "TopoType",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Topography Type",
+                    "nodegroup_id": "0eef8b2d-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b34-8fa4-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geography",
+                    "nodegroup_id": "61ad111d-c7f1-11ea-a292-02e7594ce0a0",
+                    "nodeid": "61ad111d-c7f1-11ea-a292-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "sortorder": 3
+                },
+                {
+                    "config": {
+                        "graphs": [],
+                        "rdmCollection": "c3c2eb37-0afa-415b-b96e-083075c4310f"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "Designatn",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Designation",
+                    "nodegroup_id": "aa130451-ca9b-11ea-a292-02e7594ce0a0",
+                    "nodeid": "aa130451-ca9b-11ea-a292-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E30_Right",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
                     "sortorder": 0
                 },
                 {
@@ -5069,6 +4961,24 @@
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S4_Observation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
                     "sortorder": 5
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Damage State",
+                    "nodegroup_id": "ea8af46a-b15a-11ea-9b1f-02e7594ce0a0",
+                    "nodeid": "ea8af46a-b15a-11ea-9b1f-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -5105,24 +5015,6 @@
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S4_Observation",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15i_influenced",
                     "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Process Indicator/Evidence of",
-                    "nodegroup_id": "4f7003ee-99a5-11ea-b04a-02e7594ce0a0",
-                    "nodeid": "4f7003ee-99a5-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
-                    "sortorder": 3
                 },
                 {
                     "config": null,
@@ -5202,24 +5094,6 @@
                 },
                 {
                     "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Feature Sediment Belief",
-                    "nodegroup_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
-                    "sortorder": 2
-                },
-                {
-                    "config": null,
                     "datatype": "date",
                     "description": null,
                     "exportable": false,
@@ -5235,24 +5109,6 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E50_Date",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Marine Environment",
-                    "nodegroup_id": "0eef8b27-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b27-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of",
-                    "sortorder": 1
                 },
                 {
                     "config": null,
@@ -5315,24 +5171,6 @@
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Depth/Elevation",
-                    "nodegroup_id": "a107cddf-b14e-11ea-9b1f-02e7594ce0a0",
-                    "nodeid": "a107cddf-b14e-11ea-9b1f-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O12_has_dimension",
-                    "sortorder": 3
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": false,
                     "isrequired": false,
                     "issearchable": true,
@@ -5383,24 +5221,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Topography",
-                    "nodegroup_id": "0eef8b2d-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b2d-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of",
-                    "sortorder": 2
-                },
-                {
                     "config": {
                         "graphid": [
                             "35b99cb7-379a-11ea-9989-06f597a7d5ce"
@@ -5442,24 +5262,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Feature Interpretation Belief",
-                    "nodegroup_id": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
-                    "sortorder": 3
-                },
-                {
                     "config": {
                         "rdmCollection": "dd9f4fb1-d23e-4ad0-94c2-ff3e3c3879fe"
                     },
@@ -5475,26 +5277,6 @@
                     "name": "Geometry Qualifier",
                     "nodegroup_id": "6c5720fd-c7f2-11ea-a292-02e7594ce0a0",
                     "nodeid": "6c572101-c7f2-11ea-a292-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "cea306e7-3c59-499e-876f-47cac241b5f5"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "SurfaceGeo",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Surficial Geology Type",
-                    "nodegroup_id": "0eef8b2a-8fa4-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "0eef8b37-8fa4-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
@@ -5602,6 +5384,44 @@
                     "exportable": false,
                     "fieldname": "",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Environment Assessment",
+                    "nodegroup_id": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b30-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "sortorder": 4
+                },
+                {
+                    "config": {
+                        "rdmCollection": "cea306e7-3c59-499e-876f-47cac241b5f5"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "SurfaceGeo",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Surficial Geology Type",
+                    "nodegroup_id": "0eef8b2a-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b37-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": false,
                     "isrequired": true,
                     "issearchable": true,
@@ -5636,18 +5456,18 @@
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
-                    "fieldname": null,
+                    "fieldname": "",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": true,
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Source of Evidence",
-                    "nodegroup_id": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
-                    "sortorder": 1
+                    "name": "Geology",
+                    "nodegroup_id": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b21-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of",
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -5660,11 +5480,181 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Geometry",
-                    "nodegroup_id": "6c5720fd-c7f2-11ea-a292-02e7594ce0a0",
-                    "nodeid": "6c5720fd-c7f2-11ea-a292-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "name": "Marine Environment",
+                    "nodegroup_id": "0eef8b27-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b27-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of",
+                    "sortorder": 1
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Topography",
+                    "nodegroup_id": "0eef8b2d-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "0eef8b2d-8fa4-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P5i_forms_part_of",
+                    "sortorder": 2
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Depth/Elevation",
+                    "nodegroup_id": "a107cddf-b14e-11ea-9b1f-02e7594ce0a0",
+                    "nodeid": "a107cddf-b14e-11ea-9b1f-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E54_Dimension",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMsci/O12_has_dimension",
+                    "sortorder": 3
+                },
+                {
+                    "config": {
+                        "rdmCollection": "cdce49f8-df9b-4936-8608-8b2f03a289c9"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "FtLndfrNu",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Landform Number Type",
+                    "nodegroup_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "4d3de2a6-8f9d-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "17119f94-8d1f-4d08-a544-fe85e2382169"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "InterpCert",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Interpretation Type Certainty",
+                    "nodegroup_id": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "301e96cc-8fa0-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Process Indicator/Evidence of",
+                    "nodegroup_id": "4f7003ee-99a5-11ea-b04a-02e7594ce0a0",
+                    "nodeid": "4f7003ee-99a5-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
+                    "sortorder": 3
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Sediment Belief",
+                    "nodegroup_id": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "d2d5fcac-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "sortorder": 2
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Interpretation Belief",
+                    "nodegroup_id": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "f118a2a0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "sortorder": 3
+                },
+                {
+                    "config": {
+                        "rdmCollection": "a6ff5332-7e8a-4e09-876c-c561b0f5024a"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "DateQuat",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Quaternary Divisions",
+                    "nodegroup_id": "0863ccf8-8f76-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "3650a276-8f76-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "e1ff79d4-748b-4681-aca2-63534ad55c1e"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "MISCert",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Marine Isotope Stage Certainty",
+                    "nodegroup_id": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0",
+                    "nodeid": "0800960e-abf7-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
                     "sortorder": 0
                 },
                 {
@@ -5760,24 +5750,6 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Feature Landform Belief",
-                    "nodegroup_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
-                    "sortorder": 1
-                },
-                {
                     "config": {
                         "rdmCollection": "19232db6-c00d-4171-bbfa-dd34ada7a6b8"
                     },
@@ -5796,96 +5768,6 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "GeoarchNam",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Resource Name",
-                    "nodegroup_id": "2ce1f3f6-98db-11ea-b04a-02e7594ce0a0",
-                    "nodeid": "2ce1f3f6-98db-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 1
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": null,
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Geoarchaeology Feature Assessment",
-                    "nodegroup_id": "92f84dd8-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "92f84dd8-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
-                    "sortorder": 4
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Assessment Summary",
-                    "nodegroup_id": "5297faa5-8e16-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "5297faa5-8e16-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
-                    "sortorder": 2
-                },
-                {
-                    "config": null,
-                    "datatype": "semantic",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Resource Summary",
-                    "nodegroup_id": "2ce1f402-98db-11ea-b04a-02e7594ce0a0",
-                    "nodeid": "2ce1f402-98db-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
-                    "sortorder": 1
-                },
-                {
-                    "config": null,
-                    "datatype": "string",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "GEOARCH_ID",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "GEOARCH ID",
-                    "nodegroup_id": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 5
                 },
                 {
                     "config": {
@@ -6014,6 +5896,42 @@
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geometry",
+                    "nodegroup_id": "6c5720fd-c7f2-11ea-a292-02e7594ce0a0",
+                    "nodeid": "6c5720fd-c7f2-11ea-a292-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89i_contains",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Resource Summary",
+                    "nodegroup_id": "2ce1f402-98db-11ea-b04a-02e7594ce0a0",
+                    "nodeid": "2ce1f402-98db-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "sortorder": 1
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
                     "fieldname": "",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": true,
@@ -6043,26 +5961,6 @@
                     "name": "Threat Cause Type",
                     "nodegroup_id": "ea8af488-b15a-11ea-9b1f-02e7594ce0a0",
                     "nodeid": "ea8af4a0-b15a-11ea-9b1f-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "a6ff5332-7e8a-4e09-876c-c561b0f5024a"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "DateQuat",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Quaternary Divisions",
-                    "nodegroup_id": "0863ccf8-8f76-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "3650a276-8f76-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I4_Proposition_Set",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J4_that",
                     "sortorder": 0
@@ -6112,26 +6010,6 @@
                     "nodeid": "ea8af48f-b15a-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "e1ff79d4-748b-4681-aca2-63534ad55c1e"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "MISCert",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Marine Isotope Stage Certainty",
-                    "nodegroup_id": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0",
-                    "nodeid": "0800960e-abf7-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
                     "sortorder": 0
                 },
                 {
@@ -6215,6 +6093,114 @@
                     "datatype": "semantic",
                     "description": null,
                     "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Landform Belief",
+                    "nodegroup_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P117i_includes",
+                    "sortorder": 1
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Source of Evidence",
+                    "nodegroup_id": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "1d7c082e-8f7d-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P129i_is_subject_of",
+                    "sortorder": 1
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geoarchaeology Feature Assessment",
+                    "nodegroup_id": "92f84dd8-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "92f84dd8-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E13_Attribute_Assignment",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
+                    "sortorder": 4
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Assessment Summary",
+                    "nodegroup_id": "5297faa5-8e16-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "5297faa5-8e16-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E28_Conceptual_Object",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54i_is_same-as",
+                    "sortorder": 2
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "GEOARCH_ID",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "GEOARCH ID",
+                    "nodegroup_id": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "5297fa9f-8e16-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 5
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "GeoarchNam",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Resource Name",
+                    "nodegroup_id": "2ce1f3f6-98db-11ea-b04a-02e7594ce0a0",
+                    "nodeid": "2ce1f3f6-98db-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "sortorder": 1
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
                     "fieldname": "",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                     "is_collector": true,
@@ -6227,36 +6213,6 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E14_Condition_Assessment",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P141i_was_assigned_by",
                     "sortorder": 7
-                },
-                {
-                    "config": {
-                        "graphid": [
-                            "ccbd1537-ac5e-11e6-84a5-026d961c88e6"
-                        ],
-                        "graphs": [
-                            {
-                                "graphid": "e98e1cee-c38b-11ea-9026-02e7594ce0a0",
-                                "inverseOntologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P74_has_current_or_former_residence",
-                                "name": "Person/Organization",
-                                "ontologyProperty": "http://www.cidoc-crm.org/cidoc-crm/P74i_is_current_or_former_residence_of"
-                            }
-                        ]
-                    },
-                    "datatype": "resource-instance",
-                    "description": null,
-                    "exportable": false,
-                    "fieldname": "",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Disturbance Cause Assignment Assessor Name - Actor",
-                    "nodegroup_id": "ea8af467-b15a-11ea-9b1f-02e7594ce0a0",
-                    "nodeid": "ea8af4a1-b15a-11ea-9b1f-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -6310,6 +6266,24 @@
                     "nodeid": "ea8af49b-b15a-11ea-9b1f-02e7594ce0a0",
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P14_carried_out_by",
+                    "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": "",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Disturbance Cause Assignment Assessor Name - Actor",
+                    "nodegroup_id": "ea8af467-b15a-11ea-9b1f-02e7594ce0a0",
+                    "nodeid": "ea8af4a1-b15a-11ea-9b1f-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
                 {
@@ -6743,52 +6717,6 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "e1ff79d4-748b-4681-aca2-63534ad55c1e"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "QuatCert",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Quaternary Division Certainty",
-                    "nodegroup_id": "0863ccf8-8f76-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "4beffbc2-8f76-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "fuzzy_day_padding": "365",
-                        "fuzzy_month_padding": "11",
-                        "fuzzy_season_padding": 12,
-                        "fuzzy_year_padding": "10",
-                        "multiplier_if_approximate": 1,
-                        "multiplier_if_both": 1,
-                        "multiplier_if_uncertain": 1
-                    },
-                    "datatype": "edtf",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "CalDateFro",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Geoarchaeological From Date",
-                    "nodegroup_id": "1cecc895-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "nodeid": "1cecc898-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
                         "fuzzy_season_padding": 12,
@@ -6911,32 +6839,6 @@
                 },
                 {
                     "config": {
-                        "fuzzy_day_padding": "357",
-                        "fuzzy_month_padding": "11",
-                        "fuzzy_season_padding": 12,
-                        "fuzzy_year_padding": "10",
-                        "multiplier_if_approximate": 1,
-                        "multiplier_if_both": 1,
-                        "multiplier_if_uncertain": 1
-                    },
-                    "datatype": "edtf",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "CalDateTo",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Geoarchaeological To Date",
-                    "nodegroup_id": "1cecc895-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "nodeid": "1cecc89e-f65c-11ea-afe6-0a5a9a4f6ef7",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "fuzzy_day_padding": 1,
                         "fuzzy_month_padding": 1,
                         "fuzzy_season_padding": 12,
@@ -6988,6 +6890,58 @@
                     "sortorder": 0
                 },
                 {
+                    "config": {
+                        "fuzzy_day_padding": "357",
+                        "fuzzy_month_padding": "11",
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": "10",
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "CalDateTo",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geoarchaeological To Date",
+                    "nodegroup_id": "1cecc895-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "nodeid": "1cecc89e-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82b_end_of_the_end",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "fuzzy_day_padding": "365",
+                        "fuzzy_month_padding": "11",
+                        "fuzzy_season_padding": 12,
+                        "fuzzy_year_padding": "10",
+                        "multiplier_if_approximate": 1,
+                        "multiplier_if_both": 1,
+                        "multiplier_if_uncertain": 1
+                    },
+                    "datatype": "edtf",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "CalDateFro",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Geoarchaeological From Date",
+                    "nodegroup_id": "1cecc895-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "nodeid": "1cecc898-f65c-11ea-afe6-0a5a9a4f6ef7",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E61_Time_Primitive",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P82a_begin_of_the_begin",
+                    "sortorder": 0
+                },
+                {
                     "config": null,
                     "datatype": "semantic",
                     "description": null,
@@ -7006,22 +6960,24 @@
                     "sortorder": 3
                 },
                 {
-                    "config": null,
-                    "datatype": "semantic",
+                    "config": {
+                        "rdmCollection": "e1ff79d4-748b-4681-aca2-63534ad55c1e"
+                    },
+                    "datatype": "concept",
                     "description": null,
-                    "exportable": false,
-                    "fieldname": null,
+                    "exportable": true,
+                    "fieldname": "QuatCert",
                     "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": true,
-                    "isrequired": false,
+                    "is_collector": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "General Date",
-                    "nodegroup_id": "bfd9064c-8f75-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "bfd9064c-8f75-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S5_Inference_Making",
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
-                    "sortorder": 2
+                    "name": "Quaternary Division Certainty",
+                    "nodegroup_id": "0863ccf8-8f76-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "4beffbc2-8f76-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -7049,6 +7005,24 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site",
                     "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
+                },
+                {
+                    "config": null,
+                    "datatype": "semantic",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "General Date",
+                    "nodegroup_id": "bfd9064c-8f75-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "bfd9064c-8f75-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMsci/S5_Inference_Making",
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P17i_motivated",
+                    "sortorder": 2
                 },
                 {
                     "config": {
@@ -7188,46 +7162,6 @@
                 },
                 {
                     "config": {
-                        "rdmCollection": "e1ff79d4-748b-4681-aca2-63534ad55c1e"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "ProcesCert",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Process Indicator Certainty",
-                    "nodegroup_id": "4f7003ee-99a5-11ea-b04a-02e7594ce0a0",
-                    "nodeid": "8b38c406-99a5-11ea-b04a-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "rdmCollection": "1a2072ce-3d87-4cba-ba5b-9ceb6241d9ff"
-                    },
-                    "datatype": "concept",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "FtLndfrCer",
-                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
-                    "is_collector": false,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Feature Landform Type Certainty",
-                    "nodegroup_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
-                    "nodeid": "6d3e2674-8f9d-11ea-a6a6-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
-                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
-                    "sortorder": 0
-                },
-                {
-                    "config": {
                         "rdmCollection": "c0819535-94c3-4970-9bdd-8d71aef05f2d"
                     },
                     "datatype": "concept",
@@ -7285,6 +7219,46 @@
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type",
                     "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "1a2072ce-3d87-4cba-ba5b-9ceb6241d9ff"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "FtLndfrCer",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Feature Landform Type Certainty",
+                    "nodegroup_id": "ba6d81d0-8f9b-11ea-a6a6-02e7594ce0a0",
+                    "nodeid": "6d3e2674-8f9d-11ea-a6a6-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "rdmCollection": "e1ff79d4-748b-4681-aca2-63534ad55c1e"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "ProcesCert",
+                    "graph_id": "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Process Indicator Certainty",
+                    "nodegroup_id": "4f7003ee-99a5-11ea-b04a-02e7594ce0a0",
+                    "nodeid": "8b38c406-99a5-11ea-b04a-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I6_Belief_Value",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMinf/J5_holds_to_be",
+                    "sortorder": 0
                 }
             ],
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
@@ -7317,6 +7291,6 @@
         "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
         "git hash": "f2bb26fae 2020-07-06 13:33:44 +0100",
         "os": "Linux",
-        "os version": "5.3.0-1035-aws"
+        "os version": "5.4.0-1025-aws"
     }
 }
