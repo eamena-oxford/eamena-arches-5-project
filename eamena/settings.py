@@ -5,6 +5,7 @@ Django settings for eamena project.
 import os
 import arches
 import inspect
+from django.utils.translation import gettext_lazy as _
 
 try:
     from arches.settings import *
@@ -28,7 +29,7 @@ LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
 SECRET_KEY = '^e5_+v3hjvzsopdq#qg838rsf=b66+0jme$l12pe03)6)u)dzx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
 
 ROOT_URLCONF = 'eamena.urls'
 
@@ -87,7 +88,39 @@ INSTALLED_APPS = (
     'eamena',
 )
 
-ALLOWED_HOSTS = ['52.208.0.118', '172.31.41.102']
+MIDDLEWARE = [
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.security.SecurityMiddleware",
+    "django.contrib.sessions.middleware.SessionMiddleware",
+    #'arches.app.utils.middleware.TokenMiddleware',
+    "django.middleware.locale.LocaleMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    "django.middleware.csrf.CsrfViewMiddleware",
+    "arches.app.utils.middleware.ModifyAuthorizationHeader",
+    "oauth2_provider.middleware.OAuth2TokenMiddleware",
+    "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "django.contrib.messages.middleware.MessageMiddleware",
+    # "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "arches.app.utils.middleware.SetAnonymousUser",
+]
+
+# default language of the application
+# language code needs to be all lower case with the form:
+# {langcode}-{regioncode} eg: en, en-gb ....
+# a list of language codes can be found here http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = "en"
+# list of languages to display in the language switcher, 
+# if left empty or with a single entry then the switch won't be displayed
+# language codes need to be all lower case with the form:
+# {langcode}-{regioncode} eg: en, en-gb ....
+# a list of language codes can be found here http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGES = [
+  ('en', _('English')),
+  ('ar', _('Arabic'))
+]
+# override this to permenantly display/hide the language switcher
+SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'eamena.wsgi.application'
