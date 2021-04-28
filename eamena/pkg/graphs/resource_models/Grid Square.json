@@ -38,8 +38,8 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
-                    "name": "Grid Square Identification",
+                    "is_editable": false,
+                    "name": "Grid Square Identification / \u0647\u0648\u064a\u0629 \u0627\u0644\u0634\u0628\u0643\u0629",
                     "nodegroup_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
                     "sortorder": null,
                     "visible": true
@@ -49,8 +49,10 @@
                     "cardid": "7248e0d2-ca96-11ea-a292-02e7594ce0a0",
                     "component_id": "3c103484-22d1-4ca9-a9f3-eb3902d567ac",
                     "config": {
+                        "basemap": "streets",
                         "centerX": 28.35335107798743,
                         "centerY": 22.755462232985128,
+                        "overlayConfigs": [],
                         "selectSource": "",
                         "selectSourceLayer": "",
                         "selectText": "",
@@ -59,13 +61,13 @@
                     "constraints": [
                         {
                             "card_id": "7248e0d2-ca96-11ea-a292-02e7594ce0a0",
-                            "constraintid": "4ba5416b-677c-4d02-967a-d53b61a21707",
+                            "constraintid": "43befa95-d8d3-493a-941f-392e52004cc5",
                             "nodes": [],
                             "uniquetoallinstances": false
                         },
                         {
                             "card_id": "7248e0d2-ca96-11ea-a292-02e7594ce0a0",
-                            "constraintid": "43befa95-d8d3-493a-941f-392e52004cc5",
+                            "constraintid": "4ba5416b-677c-4d02-967a-d53b61a21707",
                             "nodes": [],
                             "uniquetoallinstances": false
                         }
@@ -77,8 +79,8 @@
                     "helptext": null,
                     "helptitle": null,
                     "instructions": null,
-                    "is_editable": true,
-                    "name": "Geometry Place Expression",
+                    "is_editable": false,
+                    "name": "Geometry Place Expression / \u0647\u0646\u062f\u0633\u0629 \u0627\u0644\u0634\u0628\u0643\u0629",
                     "nodegroup_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
                     "sortorder": null,
                     "visible": true
@@ -106,7 +108,7 @@
                                 "text": "Polygon"
                             }
                         ],
-                        "label": "Grid Square Geometry",
+                        "label": "Grid Square Geometry / \u0647\u0646\u062f\u0633\u0629 \u0627\u0644\u0634\u0628\u0643\u0629",
                         "maxZoom": 20,
                         "minZoom": null,
                         "overlayConfigs": [],
@@ -116,7 +118,7 @@
                         "zoom": 3
                     },
                     "id": "2be64231-ca97-11ea-a292-02e7594ce0a0",
-                    "label": "Grid Square Geometry",
+                    "label": "Grid Square Geometry / \u0647\u0646\u062f\u0633\u0629 \u0627\u0644\u0634\u0628\u0643\u0629",
                     "node_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
                     "sortorder": 0,
                     "visible": true,
@@ -126,13 +128,14 @@
                     "card_id": "b3628db2-742d-11ea-b4d0-02e7594ce0a0",
                     "config": {
                         "defaultValue": null,
-                        "label": "Grid Square",
+                        "label": "Grid Square / \u0627\u0644\u0634\u0628\u0643\u0629",
                         "maxLength": null,
                         "placeholder": "Enter Grid ID in the format E##N##-##",
+                        "uneditable": false,
                         "width": "100%"
                     },
                     "id": "611e3251-742f-11ea-b4d0-02e7594ce0a0",
-                    "label": "Grid Square",
+                    "label": "Grid Square / \u0627\u0644\u0634\u0628\u0643\u0629",
                     "node_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
                     "sortorder": 0,
                     "visible": true,
@@ -181,20 +184,20 @@
                 {
                     "description": null,
                     "domainnode_id": "77d18972-7428-11ea-b4d0-02e7594ce0a0",
-                    "edgeid": "7248e0d3-ca96-11ea-a292-02e7594ce0a0",
-                    "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
-                    "name": null,
-                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
-                    "rangenode_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0"
-                },
-                {
-                    "description": null,
-                    "domainnode_id": "77d18972-7428-11ea-b4d0-02e7594ce0a0",
                     "edgeid": "b3628db3-742d-11ea-b4d0-02e7594ce0a0",
                     "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
                     "name": null,
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "rangenode_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "77d18972-7428-11ea-b4d0-02e7594ce0a0",
+                    "edgeid": "7248e0d3-ca96-11ea-a292-02e7594ce0a0",
+                    "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
+                    "name": null,
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
+                    "rangenode_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0"
                 }
             ],
             "functions_x_graphs": [
@@ -221,7 +224,7 @@
             ],
             "graphid": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
             "iconclass": "fa fa-th",
-            "is_editable": true,
+            "is_editable": false,
             "isactive": true,
             "isresource": true,
             "jsonldcontext": null,
@@ -242,43 +245,20 @@
             ],
             "nodes": [
                 {
-                    "config": {
-                        "addToMap": false,
-                        "advancedStyle": "",
-                        "advancedStyling": false,
-                        "clusterDistance": 20,
-                        "clusterMaxZoom": 5,
-                        "clusterMinPoints": 3,
-                        "fillColor": "rgba(130, 130, 130, 0.5)",
-                        "haloRadius": 4,
-                        "haloWeight": 4,
-                        "layerActivated": true,
-                        "layerIcon": "",
-                        "layerLegend": "",
-                        "layerName": "",
-                        "lineColor": "rgba(130, 130, 130, 0.7)",
-                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "outlineColor": "rgba(200, 200, 200, 0.7)",
-                        "outlineWeight": 2,
-                        "pointColor": "rgba(130, 130, 130, 0.7)",
-                        "pointHaloColor": "rgba(200, 200, 200, 0.5)",
-                        "radius": 2,
-                        "simplification": 0.3,
-                        "weight": 2
-                    },
-                    "datatype": "geojson-feature-collection",
+                    "config": null,
+                    "datatype": "string",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
                     "is_collector": true,
-                    "isrequired": false,
+                    "isrequired": true,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Grid Square Geometric Place Expression",
-                    "nodegroup_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
-                    "nodeid": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
+                    "name": "Grid ID",
+                    "nodegroup_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
+                    "nodeid": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 },
@@ -301,20 +281,43 @@
                     "sortorder": 0
                 },
                 {
-                    "config": null,
-                    "datatype": "string",
+                    "config": {
+                        "addToMap": false,
+                        "advancedStyle": "",
+                        "advancedStyling": false,
+                        "clusterDistance": "1",
+                        "clusterMaxZoom": 5,
+                        "clusterMinPoints": "124",
+                        "fillColor": "rgba(200,200,200,0.21)",
+                        "haloRadius": 4,
+                        "haloWeight": 4,
+                        "layerActivated": true,
+                        "layerIcon": "",
+                        "layerLegend": "",
+                        "layerName": "",
+                        "lineColor": "rgba(130,130,130,0.7)",
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)",
+                        "outlineColor": "rgba(130,130,130,0.13)",
+                        "outlineWeight": 1,
+                        "pointColor": "rgba(130,130,130,0.7)",
+                        "pointHaloColor": "rgba(200,200,200,0.5)",
+                        "radius": 2,
+                        "simplification": 0.3,
+                        "weight": 1
+                    },
+                    "datatype": "geojson-feature-collection",
                     "description": null,
                     "exportable": false,
                     "fieldname": null,
                     "graph_id": "77d18973-7428-11ea-b4d0-02e7594ce0a0",
                     "is_collector": true,
-                    "isrequired": true,
+                    "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Grid ID",
-                    "nodegroup_id": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
-                    "nodeid": "b3628db0-742d-11ea-b4d0-02e7594ce0a0",
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E42_Identifier",
+                    "name": "Grid Square Geometric Place Expression",
+                    "nodegroup_id": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
+                    "nodeid": "7248e0d0-ca96-11ea-a292-02e7594ce0a0",
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMgeo/SP5_Geometric_Place_Expression",
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by",
                     "sortorder": 0
                 }
@@ -323,10 +326,10 @@
             "relatable_resource_model_ids": [
                 "77d18973-7428-11ea-b4d0-02e7594ce0a0",
                 "f6235ff1-f992-11e9-b345-06f597a7d5ce",
+                "e98e1cee-c38b-11ea-9026-02e7594ce0a0",
+                "34cfe98e-c2c0-11ea-9026-02e7594ce0a0",
                 "5297fa9e-8e16-11ea-a6a6-02e7594ce0a0",
                 "77d18973-7428-11ea-b4d0-02e7594ce0a0",
-                "34cfe98e-c2c0-11ea-9026-02e7594ce0a0",
-                "e98e1cee-c38b-11ea-9026-02e7594ce0a0",
                 "6c4f0703-c381-11ea-9026-02e7594ce0a0",
                 "35b99cb7-379a-11ea-9989-06f597a7d5ce"
             ],
@@ -355,9 +358,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.2 (Ubuntu 12.2-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "1d21bed3e 2020-10-08 12:03:20 +0100",
+        "db": "PostgreSQL 12.6 (Ubuntu 12.6-1.pgdg20.04+1) on aarch64-unknown-linux-gnu, compiled by gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, 64-bit",
+        "git hash": "8b77396b4 2021-03-02 17:03:37 +0000",
         "os": "Linux",
-        "os version": "5.4.0-1028-aws"
+        "os version": "5.4.0-1045-aws"
     }
 }
