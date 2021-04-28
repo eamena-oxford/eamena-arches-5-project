@@ -1873,9 +1873,7 @@
                 {
                     "card_id": "5297faa7-8e16-11ea-a6a6-02e7594ce0a0",
                     "config": {
-                        "defaultValue": [
-                            "ec8b5876-e07f-4190-aebf-e328be5b6d00"
-                        ],
+                        "defaultValue": "",
                         "label": "Investigator Role Type",
                         "options": [],
                         "placeholder": "Select an option"
@@ -4587,7 +4585,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Quaternary Divisions",
+                    "name": "Quaternary Divisions Belief",
                     "nodegroup_id": "0863ccf8-8f76-11ea-a6a6-02e7594ce0a0",
                     "nodeid": "0863ccf8-8f76-11ea-a6a6-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",
@@ -5300,7 +5298,7 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Marine Isotope Stages",
+                    "name": "Marine Isotope Stages Belief",
                     "nodegroup_id": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0",
                     "nodeid": "b3cbce96-abf6-11ea-b04a-02e7594ce0a0",
                     "ontologyclass": "http://www.ics.forth.gr/isl/CRMinf/I2_Belief",

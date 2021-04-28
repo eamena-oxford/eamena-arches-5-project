@@ -1709,100 +1709,9 @@
                 {
                     "card_id": "3080eec0-c2c5-11ea-9026-02e7594ce0a0",
                     "config": {
-                        "defaultValue": [
-                            "70c2a870-0b3c-46f8-85af-7696e40ca810"
-                        ],
+                        "defaultValue": "",
                         "label": "Geometry Type",
-                        "options": [
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "2a9a769e-144b-379b-8e93-58a43c65bd56",
-                                "id": "5ca3e641-7994-4de2-8fb8-865f8b305cfa",
-                                "sortorder": "",
-                                "text": "access point"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "9683685d-04a1-3d98-a3bf-88c1c96dfab6",
-                                "id": "30c9364c-5fa4-453d-ad20-1998da92fe04",
-                                "sortorder": "",
-                                "text": "buffer polygon"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "5d328f79-34b2-3bfd-8b44-59447afee0e9",
-                                "id": "d676f686-d139-4e9c-92a3-606d5bdf596b",
-                                "sortorder": "",
-                                "text": "center line"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "227db975-48ae-34d2-ba57-6e5214fa9622",
-                                "id": "70c2a870-0b3c-46f8-85af-7696e40ca810",
-                                "sortorder": "",
-                                "text": "center point"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "ad8c2de7-7d66-38b7-8144-ad1f3116f455",
-                                "id": "a89e9e37-1c5f-46f6-af39-4ea32740dd68",
-                                "sortorder": "",
-                                "text": "circumscribed polygon"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "eb25d34c-ec52-3aed-adcc-165b923f7908",
-                                "id": "98f54ee4-6fe3-4e8f-99ad-76ee6f70afde",
-                                "sortorder": "",
-                                "text": "facade point"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "e60548ee-0227-39b4-b86d-14c09d26d380",
-                                "id": "23f63f5c-90f0-493a-ac1a-a72b20f6c06b",
-                                "sortorder": "",
-                                "text": "footprint polygon"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "a1c5e29f-c184-3994-a987-ce7f996a7cfe",
-                                "id": "d899f50a-eb09-4c49-9105-c2218283dce3",
-                                "sortorder": "",
-                                "text": "perimeter polygon"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "99d78e8f-fee9-300f-b008-c3c330864491",
-                                "id": "98486d35-5a9a-4ac5-b0c3-0d19ed817c17",
-                                "sortorder": "",
-                                "text": "property line"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "b8aa66ab-524b-3b98-8942-a495d8694a1c",
-                                "id": "6012e024-1412-420d-924f-c3e47f1ddd28",
-                                "sortorder": "",
-                                "text": "site datum point"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "f3c4a156-c364-3ccb-a123-a89e8ebad966",
-                                "id": "49ae4986-11d1-4e02-906e-0b4131cfeb49",
-                                "sortorder": "",
-                                "text": "vicinity point"
-                            }
-                        ],
+                        "options": [],
                         "placeholder": "Select an option"
                     },
                     "id": "142bca6f-c2c8-11ea-9026-02e7594ce0a0",
@@ -1990,9 +1899,7 @@
                 {
                     "card_id": "34cfe9f1-c2c0-11ea-9026-02e7594ce0a0",
                     "config": {
-                        "defaultValue": [
-                            "7b8e8824-ff65-49c6-a7ef-3b77d76f4dd1"
-                        ],
+                        "defaultValue": "",
                         "label": "Heritage Place Type",
                         "options": [],
                         "placeholder": "Select an option"

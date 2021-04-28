@@ -42,6 +42,28 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     <link href="{% static 'css/unify.css' %}" rel="stylesheet">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
     <link href="{% static 'css/index.css' %}" rel="stylesheet">
+    <style>
+        .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+        }
+        
+        .flex-container > div {
+            background-color: none;
+            width: none;
+            margin: none;
+            text-align: right;
+            line-height: none;
+            font-size: 12px;
+            font-color: white;
+        }
+        
+        .white {
+            color: white;
+        }
+        
+    </style>
 
 </head>
 
@@ -53,36 +75,26 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 <body id="body" data-spy="scroll" data-target=".splash-nav" class="demo-lightbox-gallery">
 
     <!--=== Header ===-->
-    <nav class="v5-splash-navbar navbar" role="navigation">
+    <nav class="v5-splash-navbar navbar" role="navigation" style="height:90px">
         
-        <nav class="navbar">
+        <nav class="navbar" >
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="myNavbar" >
-                    <!--<div class="relative" style="padding: 12px 10px 8px 10px; width: 800px;">
-                        <div class="navbar-brand-v5-icon-container" style="">
-                            <img class="navbar-brand-v5-icon" src="{% static 'img/landing/arches_logo_dark.png' %}" style="" alt="Arches Logo">
-                        </div>
-                    </div> -->
+                <!--Logo Bar -->
+                <div class="collapse navbar-collapse" id="myNavbar" style="float:left">
                     <span class="icon-bar"></span>
                     <!--<div class="application-name" style="">  -->
-                        <a class="navbar-brand" href="{% url 'home' %}">
-                             <img id="logo-header" class="arches-logo" src="{{ STATIC_URL }}img/landing/eamena/eamena_logo_nobackground_lg.png" alt="EAMENA" style="width: 450px; height: 60px">&nbsp;
+                        <a class="navbar-brand" href="https://eamena.org/">
+                             <img id="logo-header" class="arches-logo" src="{% static 'img/landing/eamena/eamena_logo_nobackground_lg.png' %}" alt="EAMENA" style="width: 450px; height: 57px">&nbsp;
                         </a>
                     <!-- </div> -->
                     <!--<div class="application-name" style=""> -->
                         <a href="https://marea.soton.ac.uk/" class="">
-                            <img src="{% static 'img/landing/eamena/marea-logo_white.png' %}" class="" width= "175" height= "60" style="align: center">&nbsp; 
+                            <img src="{% static 'img/landing/eamena/marea-logo_white.png' %}" class="" width= "203" height= "72" style="align: center; padding: 5px 0px 0px 0px">&nbsp; 
                         </a>
                         <a href="http://www.archesproject.org" class="">
-                            <img src="{% static 'img/PoweredByArches.png' %}" class="powered-by-arches" width= "125" height= "20" >&nbsp; 
+                            <img src="{% static 'img/PoweredByArches.png' %}" class="powered-by-arches" width= "118" height= "50" style="padding: 0px 0px 35px 0px">&nbsp; 
                         </a>
-                    <!--</div>
-                                        
-            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>                        
-                </button>    -->  
+                </div> 
 
   <!--                  <div class="relative" style="padding: 8px 10px 8px 100px; width: 300px;">
                         <div class="application-name" style="position: absolute; top: 5px; left: 160px;">
@@ -96,39 +108,103 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                 </div>-->
                     <!--<div class="navbar-header" style="padding: 0px 0px 0px 900px;">    -->
                         <!--<div class="collapse navbar-collapse" id="myNavbar" style="padding: 0px 0px 0px 900px;"> -->
-                            <ul class="nav navbar-nav" style="padding: 0px 0px 0px 900px">
-                                <li class="">
-                                    <a href="{% url 'search_home' %}">{% trans "Search the EAMENA Database" %}</a>
-                                </li>
-                        
-                                {% if user|can_create_resource_instance and user.username != 'anonymous' %}
-                                <li class="">
-                                    <a href="{% url 'resource' %}" target="_blank">{% trans "Create New Heritage Resources" %}</a>
-                                </li>
-                                {% endif %}
-                            </ul>
+               
+               
+               <!--Language Switcher -->         
+ <!--                      <div class="lang-switch ep-tools ep-tools-right" style="max-width: 100px;" "pull-right"; data-bind="component: {
+                                name: &quot;views/components/language-switcher&quot;,
+                                params: {
+                                    current_language: &quot;en&quot;
+                                }
+                            }">
 
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="">
-                                {% if user.username == 'anonymous' %}
-                                    <a class="application-login" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Sign in" %}</a>
-                                {% else %}
-                                    <a class="auth-welcome" href="{% url 'user_profile_manager' %}">
-                                {% trans "Welcome, " %} {{ user.first_name|default:user.username }}
-                                    </a>
+                            <form action="/en/i18n/setlang/" method="post" data-bind="attr:{id: formid}" id="0.5807523734817532"><input type="hidden" name="csrfmiddlewaretoken" value="CM4UFX6dBONJ0OTiJvdmd7apBlN2UJyC21wJQ0BnmSwAuxI62TNIn9GnO4Cp2VKI">
+                                <input name="next" type="hidden" value="">
+                                <select id="lang_dd" name="language" data-bind="value: value, chosen: {
+                                    width:'100%'}" style="display: none;">
+                                    <option value="en" selected="selected">
+                                        English (en)
+                                    </option>                                  
+                                    <option value="ar">
+                                        Arabic (ar)
+                                    </option>                    
+                                </select><div class="chosen-container chosen-container-single" title="" id="lang_dd_chosen" style="width: 100%;"><a class="chosen-single">
+                              <span>
+                                        English (en)
+                                </span>
+                              <div><b></b></div>
+                            </a>
+                            <div class="chosen-drop">
+                              <div class="chosen-search">
+                                <input class="chosen-search-input" type="text" autocomplete="off">
+                              </div>
+                              <ul class="chosen-results"><li class="active-result result-selected" data-option-array-index="0" style="">
+                                        English (en)
+                                    </li><li class="active-result" data-option-array-index="1" style="">
+                                        Arabic (ar)
+                                    </li></ul>
+                            </div></div>
+                            </form></div> -->
+                            
+                 <div class="flex-container" style="float:right">
+                            <!-- <ul class="nav navbar-nav navbar-top" style="padding: 00px 00px 10px 900px"> -->
+                            <!--<div class = "nav navbar-nav navbar-top">
+                               <!-- <li class="pull-top" style="padding: 0px 0px 0px 0px"> -->
+                <!-- Login Menu -->
+                    {% if user.username == 'anonymous' %}
+                    <div style="position: absolute; top: 10px; right: 15px;">
+                        <span style='padding-top: 15px'>
+                            <a class="white" id="auth-link" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Sign in" %}</a>
+                        </span>
+                    {% else %}
+                        <span style='padding-top: 15px'>
+                            <a style="padding-right: 20px" class="white" href="{% url 'user_profile_manager' %}">{% trans "Welcome, " %} {{ user.first_name|default:user.username }}</a>
+                            <a class="white" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans 'Log off' %}</a>
+                        </span>
+                    {% endif %}
+                    </div>
+                                <!--</li> -->
+                <!-- old language switcher -->
+<!--                                <li class="loginbar pull-right">                                         
+                                    <form action="{% url 'set_language' %}" method="post" id="languageform">
+                                {% csrf_token %}
+                                        <input name="next" type="hidden" value="{{ request.get_full_path }}" />
+                                        <select name="language">
+                                {% for language in language_list %}
+                                            <li class="active">
+                                                <option value="{{ language.languageid }}"{% if language.languageid == LANGUAGE_CODE %} selected="selected"{% endif %}><a href="javascript:void(0);">{{ language.languagename }}<i class="fa fa-check"></i></a> </option>
+                                            </li>
+                                {% endfor %}
+                                        </select>&nbsp; 
+                                    <input type="submit" value="Change" />
+                                    </form>
                                 </li>
-                                <li>
-                                    <a class="application-login" href="{% url 'auth' %}?next={% url 'home' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans 'Log off' %}</a>
-                                {% endif %}
-                                </li>
-                            </ul>
-    
+                            </ul> -->
+                            
+                    <!-- Database/Access Menu -->
+                    <div style="position: absolute; top: 59px; right: 15px;">
+<!--                            <ul class="nav navbar-nav navbar-right" style="padding: 10px 10px 10px 100px"> -->
+                               <!-- <li class="pull-right" style="padding: 0px 10px 0px 0px"> -->
+                    {% if user.username != 'anonymous' %}
+                        <span style="padding-right: 20px"> 
+                            <a class="white" href="{% url 'search_home' %}" target="_blank">{% trans "Search the EAMENA Database" %}</a></span>
+                    {% else %}
+                         <span style="padding-right: 20px">
+                            <a class="white" id="auth-link" href="{% url 'signup' %}{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Public Access" %}</a>
+                        </span>
+                    {% endif %}
+                    {% if user|can_create_resource_instance and user.username != 'anonymous' %}
+                        <span style="">
+                            <a class="white" href="{% url 'resource' %}" target="_blank">{% trans "Create New Heritage Resources" %}</a></span>
+                    {% else %}
+                        <span style="padding-right: 00px">
+                            <a class="white" id="auth-link" href="http://eamena.web.ox.ac.uk/database-registration-form/{% if user.username != 'anonymous' %}&logout=true{% endif %}">{% trans "Register for Researcher Access" %}</a></span>
+                                <!-- </li> -->
+                    {% endif %}
                     </div>
                 </div>
-               
             </div>
         </nav>
-        <!-- /container -->
     </nav>
     <!--=== End Header ===-->
 
@@ -150,7 +226,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                     </a>
                 </li>
                 <li class="">
-                    <a class="vertical-nav-list-link" href="#info-block-2" data-number="3">
+  <!--                  <a class="vertical-nav-list-link" href="#info-block-2" data-number="3">
                         <span class="vertical-nav-list-ref">{% trans "Workflows" %}</span>
                     </a>
                 </li>
@@ -169,11 +245,11 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
         <!-- Splash Screen -->
         <div class="fullscreenbanner-container">
-            <div class="fullscreenbanner">
+            <div class="fullscreenbanner" >
                 <ul>
                 
-                <!-- SLIDE 1 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 1">
+                    <!-- SLIDE 1 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 2">
                         <!-- MAIN IMAGE -->
                         <img src="{% static 'img/landing/eamena/Sureza_drone_NE.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -193,12 +269,12 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                             <span class="">{% trans "Tell Surezha (KRG, Iraq) © University of Chicago/Harvard University" %}</span>
                         </div>
                     </li>
-                    
-                    
+
+                              
                     <!-- SLIDE 2 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 2">
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 1">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Libya_Sabratha_Temple_of_Isis_small.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{% static 'img/landing/eamena/Faqra, Lebanon.jpeg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
@@ -213,170 +289,37 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
                         <!-- Attribution -->
                         <div class="image-attribution" style="">
-                            <span class="">{% trans "Temple of Isis (Sabrath, Libya) © Nichole Sheldrick" %}</span>
+                            <span class="">{% trans "Faqra, Lebanon © Mohamed Kenawi" %}</span>
                         </div>
                     </li>
-                              
+                                        
                     <!-- SLIDE 3 -->
                     <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 3">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Kom_Ombo_MTF_relief.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{% static 'img/landing/eamena/Suakin Island_Sudan_ColinBreen_edited.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 15px; bottom: 10px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
                             <h2>{% trans "EAMENA Database v3.0" %}</h2>
                             <p>{% trans "Endangered Archaeology in" %}</p>
                             <p>{% trans "The Middle East & North Africa" %}</p>
                         </div>
-                        
+
                         <!-- Gradient -->
                         <div class="image-gradient"></div>
 
                         <!-- Attribution -->
                         <div class="image-attribution" style="">
-                            <span class="">{% trans "Temple of Kom Ombo (Aswan, Egypt) © Mike Fisher" %}</span>
+                            <span class="">{% trans "Suakin Island, Sudan © Colin Breen" %}</span>
                         </div>
                     </li>
 
+    
                     <!-- SLIDE 4 -->
                     <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 4">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Persepolis_ApadanaPalace_AZ_small.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
-                            <p>{% trans "Endangered Archaeology in" %}</p>
-                            <p>{% trans "The Middle East & North Africa" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "Apadana Palace (Persepolis, Iran) © Andrea Zerbini" %}</span>
-                        </div>
-                    </li>
-                    
-                    <!-- SLIDE 5 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 5">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/TempleofObelisks_Byblos_Lebanon_2016_JB.jpg' %}" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
-                            <p>{% trans "Endangered Archaeology in" %}</p>
-                            <p>{% trans "The Middle East & North Africa" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "Temple of the Obelisks (Byblos, Lebanon) © Jennie Bradbury" %}</span>
-                        </div>
-                    </li>
-                    
-                    <!-- SLIDE 6 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 6">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/BahlaFort_Oman_2015_JB_cropped.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 15px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
-                            <p>{% trans "Endangered Archaeology in" %}</p>
-                            <p>{% trans "The Middle East & North Africa" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "The Bahla Fort (Oman) © Jennie Bradbury" %}</span>
-                        </div>
-                    </li>
-
-
-                     <!-- SLIDE 7 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 7">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Umm_Qais_Nymphaeum_AZ.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
-                            <p>{% trans "Endangered Archaeology in" %}</p>
-                            <p>{% trans "The Middle East & North Africa" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "Nymphaeum (Garada/Umm Qais, Jordan) © Andrea Zerbini" %}</span>
-                        </div>
-
-                    </li>          
-                                        
-                    <!-- SLIDE 8 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 8">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Morocco_Ksar Bounou_NS_Middle_Draa Project.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
-                            <p>{% trans "Endangered Archaeology in" %}</p>
-                            <p>{% trans "The Middle East & North Africa" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "Qasr Bounou (Morocco) © The Middle Draa Project/Nichole Sheldrick" %}</span>
-                        </div>
-                    </li>
-                    
-                    <!-- SLIDE 9 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 9">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Libya_Ghadames_JN.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
-                            <p>{% trans "Endangered Archaeology in" %}</p>
-                            <p>{% trans "The Middle East & North Africa" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "Historic Buildings in Ghadames (Libya) © Julia Nikolaus" %}</span>
-                        </div>
-                    </li>
-                    
-                     <!-- SLIDE 10 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 10">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Giza_plateau_MTF.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{% static 'img/landing/eamena/Agha Bozorg_Kashan_edited.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
@@ -390,60 +333,36 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
                         <div class="image-gradient"></div>
 
                         <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "Temple of Isis in front of Pyramid G1-c of Queen Henutsen (Giza, Egypt) © Mike Fisher" %}</span>
-                        </div>
-
-                    </li>
-                                        
-                    <!-- SLIDE 11 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 11">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Tunisia_Carthage_JN.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
-                            <p>{% trans "Endangered Archaeology in" %}</p>
-                            <p>{% trans "The Middle East & North Africa" %}</p>
-                        </div>
-
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "Carthage (Tunisia) © Julia Nikolaus" %}</span>
+                       <div class="image-attribution" style="">
+                            <span class="">{% trans "Agha Bozorg mosque, Kashan, Iran © Bijan Rouhani" %}</span>
                         </div>
                     </li>
-
-                    <!-- SLIDE 12 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 12">
-                        <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Petra_AZ_cropped.jpg' %}" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                        <!-- LAYERS -->
-                        <!-- NEW LAYER -->
-                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
-                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
-                            <p>{% trans "Endangered Archaeology in" %}</p>
-                            <p>{% trans "The Middle East & North Africa" %}</p>
-                        </div>
-                        
-                        <!-- Gradient -->
-                        <div class="image-gradient"></div>
-
-                        <!-- Attribution -->
-                        <div class="image-attribution" style="">
-                            <span class="">{% trans "A View of Petra (Jordan) © Andrea Zerbini" %}</span>
-                        </div>
-
-                    </li>
-                        
                     
-                    <!-- SLIDE 13 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 13">
+                    
+                    <!-- SLIDE 5 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 5">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Fig3_StCath1951a.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "St Catherine’s Monastery looking north, Sinai, Egypt, 1951 © John Clubb (683 Squadron RAF)" %}</span>
+                        </div>
+                    </li>
+                    
+                    <!-- SLIDE 6 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 6">
                         <!-- MAIN IMAGE -->
                         <img src="{% static 'img/landing/eamena/Libya_Wadi Matkhandouch1_JN.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -460,14 +379,14 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
                         <!-- Attribution -->
                         <div class="image-attribution" style="">
-                            <span class="">{% trans "Rock Art in Wadi Matkhandouch (Libya) © Julia Nikolaus" %}</span>
+                            <span class="">{% trans "Rock Art in Wadi Matkhandouch, Libya © Julia Nikolaus" %}</span>
                         </div>
                     </li>
-                                        
-                    <!-- SLIDE 14 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 14">
+              
+                    <!-- SLIDE 7 -->
+                   <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 7">
                         <!-- MAIN IMAGE -->
-                        <img src="{% static 'img/landing/eamena/Jerwan Acqueduct Kurdistan_MTF.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                        <img src="{% static 'img/landing/eamena/Exhibition.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                         <!-- LAYERS -->
                         <!-- NEW LAYER -->
@@ -482,13 +401,79 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
                         <!-- Attribution -->
                         <div class="image-attribution" style="">
-                            <span class="">{% trans "Sennacherib's Acqueduct at Jerwan (KRG, Iraq) © Mike Fisher" %}</span>
+                            <span class="">{% trans "EAMENA/CPF Exhibition © Mohamed Kenawi" %}</span>
+                        </div>
+                    </li>
+
+                    <!-- SLIDE 8 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 8">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Shibam.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "Shibam, Yemen on 2 November, 1929 © Nicholas Salt" %}</span>
+                        </div>
+                    </li>
+ 
+                    <!-- SLIDE 9 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 9">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Petra_AZ_cropped.jpg' %}" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+                        
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "A View of Petra, Jordan © Andrea Zerbini" %}</span>
                         </div>
 
                     </li>
                     
-                    <!-- SLIDE 15 -->
-                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 15">
+                    <!-- SLIDE 10 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 10">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Ardakan_edit_2.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="top" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 25px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+                        
+                          <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                       <div class="image-attribution" style="">
+                            <span class="">{% trans "Historical buildings in Ardakan, Yazd, Iran © Bijan Rouhani" %}</span>
+                        </div>
+                    </li>
+                                                      
+                    <!-- SLIDE 11 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 11">
                         <!-- MAIN IMAGE -->
                         <img src="{% static 'img/landing/eamena/Tunisia_Dougga_Capitolium_NS_cropped.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
@@ -505,12 +490,147 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
                         <!-- Attribution -->
                         <div class="image-attribution" style="">
-                            <span class="">{% trans "Capitolium (Dougga, Tunisia) © Nichole Sheldrick" %}</span>
+                            <span class="">{% trans "Capitolium, Dougga, Tunisia © Nichole Sheldrick" %}</span>
                         </div>
                     </li>
+                    
+                    <!-- SLIDE 12 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 12">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Persepolis_ApadanaPalace_AZ_small.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "Apadana Palace, Persepolis, Iran © Andrea Zerbini" %}</span>
+                        </div>
+                    </li>
+                        
+                    
+                    <!-- SLIDE 13 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 13">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Morocco_Ksar Bounou_NS_Middle_Draa Project.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "Qasr Bounou, Morocco © The Middle Draa Project/Nichole Sheldrick" %}</span>
+                        </div>
+                    </li>
+                                        
+                    <!-- SLIDE 14 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 14">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Aswan, EgyptJPG_edit.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+                        
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "Aswan, Egypt © Mohamed Kenawi" %}</span>
+                        </div>
+                    </li>
+                    
+                    <!-- SLIDE 15-->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 15">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Sidon, Lebanon by Crystal Safadi.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 25px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                       <div class="image-attribution" style="">
+                            <span class="">{% trans "Sidon, Lebanon © Crystal el-Safadi" %}</span>
+                        </div>
+                    </li>
+                    
+                    <!-- SLIDE 16 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 16">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Umm_Qais_Nymphaeum_AZ.jpg' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "Nymphaeum, Garada/Umm Qais, Jordan © Andrea Zerbini" %}</span>
+                        </div>
+
+                    </li>
+                    
+                    <!-- SLIDE 17 -->
+                    <li data-transition="fade" data-slotamount="9" data-masterspeed="0" data-title="Slide 17">
+                        <!-- MAIN IMAGE -->
+                        <img src="{% static 'img/landing/eamena/Lepcis Magna, Libya, by Julia Nikolaus.JPG' %}" alt="slidebg0" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+
+                        <!-- LAYERS -->
+                        <!-- NEW LAYER -->
+                        <div class="tp-caption sft start text-bold v5-splash-caption" style="left: 50px;" delay="4500"  data-hoffset="0" data-y="500" data-speed="800" data-start="100" data-easing="Back.easeInOut" data-endspeed="300">
+                            <h2>{% trans "EAMENA Database v3.0" %}</h2>
+                            <p>{% trans "Endangered Archaeology in" %}</p>
+                            <p>{% trans "The Middle East & North Africa" %}</p>
+                        </div>
+
+                        <!-- Gradient -->
+                        <div class="image-gradient"></div>
+
+                        <!-- Attribution -->
+                        <div class="image-attribution" style="">
+                            <span class="">{% trans "Lepcis Magna, Libya © Julia Nikolaus" %}</span>
+                        </div>
+                    </li>
+                              
+                    
                 </ul>
-
+                
             <div class="tp-bannertimer tp-bottom"></div>
         </div>
 
@@ -587,7 +707,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
             <!-- branding column -->
             <div class="col-lg-4">
                 
-                <h3 class="app-footer-heading">{% trans "EAMENA Project" %}</h3>
+                <h3 class="app-footer-heading"> 
+                    <a class="splash-link-address" href="https://eamena.org/" target="_blank">{% trans "EAMENA Project" %}</a></h3>
 
                 <div class="organization-address">
                     <li class="">
@@ -605,7 +726,8 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
             <!-- branding column 2 -->
             <div class="col-lg-4">
                 
-                <h3 class="app-footer-heading">{% trans "MarEA Project" %}</h3>
+                <h3 class="app-footer-heading">
+                    <a class="splash-link-address" href="https://marea.soton.ac.uk/" target="_blank">{% trans "MarEA Project" %}</a></h3>
 
                 <div class="organization-address">
                     <li class="">
@@ -624,7 +746,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
             
                  <div class="organization-address">
                     <li class="">
-                        <a class="splash-link-address" href="https://www.arcadiafund.org.uk/" target="_blank">{% trans "Arcadia Fund" %}</a>
+                        <a class="splash-link-address" href="https://www.arcadiafund.org.uk/" target="_blank">{% trans "Arcadia Fund, a charitable fund of Lisbet Rausing & Peter Baldwin" %}</a>
                     </li><br>
                     <li class="">
                         <a class="splash-link-address" href="https://www.britishcouncil.org/arts/culture-development/cultural-protection-fund/" target="_blank">{% trans "British Council Cultural Protection Fund" %}</a>

@@ -25,8 +25,6 @@ TEMPLATES[0]['DIRS'].insert(0, os.path.join(APP_ROOT, 'templates'))
 
 LOCALE_PATHS.append(os.path.join(APP_ROOT, 'locale'))
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '^e5_+v3hjvzsopdq#qg838rsf=b66+0jme$l12pe03)6)u)dzx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
@@ -86,7 +84,9 @@ INSTALLED_APPS = (
     'oauth2_provider',
     'django_celery_results',
     'eamena',
+    'storages',
 )
+
 
 MIDDLEWARE = [
     # 'debug_toolbar.middleware.DebugToolbarMiddleware',
@@ -124,7 +124,7 @@ SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
 
 SYSTEM_SETTINGS_LOCAL_PATH = os.path.join(APP_ROOT, 'system_settings', 'System_Settings.json')
 WSGI_APPLICATION = 'eamena.wsgi.application'
-STATIC_ROOT = '/var/www/media'
+STATIC_ROOT = '/opt/arches/media'
 
 RESOURCE_IMPORT_LOG = os.path.join(APP_ROOT, 'logs', 'resource_import.log')
 
@@ -159,13 +159,19 @@ LOGGING = {
 }
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
-MEDIA_ROOT =  os.path.join(APP_ROOT)
+#MEDIA_ROOT =  os.path.join(APP_ROOT)
+MEDIA_ROOT = MEDIA_URL
 
 # Sets default max upload size to 15MB
 DATA_UPLOAD_MAX_MEMORY_SIZE = 15728640
 
 # Unique session cookie ensures that logins are treated separately for each app
 SESSION_COOKIE_NAME = 'eamena'
+
+PREFERRED_COORDINATE_SYSTEMS = (
+    {"name": "Geographic", "srid": "4326", "proj4": "+proj=longlat +datum=WGS84 +no_defs", "default": True},  # Required
+    {"name": "Mollweide", "srid": "54009", "proj4": "+proj=moll +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs", "default": False}  #in meters
+    )
 
 CACHES = {
     # 'default': {
@@ -200,17 +206,15 @@ NOCAPTCHA = True
 if DEBUG is True:
     SILENCED_SYSTEM_CHECKS = ["captcha.recaptcha_test_key_error"]
 
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  #<-- Only need to uncomment this for testing without an actual email server
-# EMAIL_USE_TLS = True
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_HOST_USER = 'xxxx@xxx.com'
-# EMAIL_HOST_PASSWORD = 'xxxxxxx'
-# EMAIL_PORT = 587
 
-CELERY_BROKER_URL = 'amqp://guest:guest@localhost'
+CELERY_BROKER_URL = 'amqp://archesdev:archesdev@127.0.0.1/archesdev'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_RESULT_BACKEND = 'django-db' # Use 'django-cache' if you want to use your cache as your backend
 CELERY_TASK_SERIALIZER = 'json'
+#CELERY_BROKER_URL = 'amqp://guest:guest@localhost'
+#CELERY_ACCEPT_CONTENT = ['json']
+#CELERY_RESULT_BACKEND = 'django-db' # Use 'django-cache' if you want to use your cache as your backend
+#CELERY_TASK_SERIALIZER = 'json'
 
 
 CELERY_SEARCH_EXPORT_EXPIRES = 24 * 3600  # seconds
@@ -220,6 +224,8 @@ CELERY_BEAT_SCHEDULE = {
     "delete-expired-search-export": {"task": "arches.app.tasks.delete_file", "schedule": CELERY_SEARCH_EXPORT_CHECK,},
     "notification": {"task": "arches.app.tasks.message", "schedule": CELERY_SEARCH_EXPORT_CHECK, "args": ("Celery Beat is Running",),},
 }
+
+SEARCH_EXPORT_IMMEDIATE_DOWNLOAD_THRESHOLD = 2000  # The maximum number of instances a user can download from search export 
 
 try:
     from .package_settings import *
