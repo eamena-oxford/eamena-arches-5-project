@@ -1,0 +1,145 @@
+<!--
+ARCHES - a program developed to inventory and manage immovable cultural heritage.
+Copyright (C) 2013 J. Paul Getty Trust and World Monuments Fund
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+{% extends "base.htm" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block loading_mask %}
+{% endblock loading_mask %}
+
+{% block body %}
+
+<html>
+<head>
+<style>
+    p.double {
+        border-style: groove;
+        height: 425px;
+        background-color: white;
+        }
+        
+    .flex-container {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+    .flex-container > div {
+            background-color: none;
+            width: none;
+            margin: none;
+            text-align: none;
+            line-height: none;
+            font-size: none;
+            font-color: none
+        }
+</style>
+</head>
+<body>
+
+<div id="container" class="cls-container arches-login" style="padding: 0px 20px 0px 20px">
+	<div class="flex-container" style="align:center">
+
+    <!-- BACKGROUND IMAGE -->
+    <!--===================================================
+    <div id="bg-overlay" class="bg-img img-login"></div>
+    -->
+    <!--LEFT TEXT BOX-->
+        <div style="color:black; font-size=14px; width:450px; margin-right:30px">
+				<br><br><br><br>
+				<p class="double" align="justify" style="padding: 0px 15px 0px 15px">
+				<br>
+				{% trans "Welcome to the Endangered Archaeology of the Middle East and North Africa (EAMENA) database. The database is populated with archaeological sites documented by the EAMENA project, supported since 2015 by Arcadia, a charitable fund of Lisbet Rausing and Peter Baldwin, and from 2017 with additional support from the British Council’s Cultural Protection Fund (CPF). The project is led by the University of Oxford in partnership with the Universities of Leicester and Durham; it also works very closely with the Maritime Endangered Archaeology project (MarEA), based in Southampton and Ulster Universities, whose data is entered and held in the same database."%} <br>
+				<br>
+				{% trans "The initial impetus for the EAMENA project was in recognition of the global threats to cultural heritage. However, the database is not restricted to sites that are directly under threat. Rather, the purpose of the database is to record all sites within the areas in which we work because it is only once sites have been documented that they can be protected. In order to monitor potential threats, assess the priority of individual sites and decide where to focus resources for preservation and protection, heritage authorities must know what archaeological resources exist and where they are located."%} </p>
+		</div>
+
+	 <!-- LOGIN FORM -->
+	 		<div class="cls-content-sm panel login-panel" style="align:center; width: 400px; margin-right:30px; margin-top: 25px">
+				<div class="panel-body">
+					<h3 style="color:gray" class="login-panel-header arches-signin">{% trans "Sign In" %}</h3>
+					<p class="arches-signin-subtext">
+						{% trans "Sign in to access the EAMENA database." %}
+					</p>
+					<form id="login-form" action="?next={{ next }}" method='POST' {% if auth_failed %} autocomplete="off" {% endif %}>
+						{% csrf_token %}
+						<input type="hidden" name="next" value="{{ next }}" />
+						<div class="form-group">
+							<div class="input-group">
+								<div class="input-group-addon"><i class="text-lg ion-log-in"></i></div>
+								<input type="text" class="form-control input-lg" placeholder="Email or Username" name='username' autofocus>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<div class="input-group-addon"><i class="ion-asterisk"></i></div>
+								<input type="password" class="form-control input-lg" placeholder="Password" name='password'>
+							</div>
+						</div>
+						<div class="form-group">
+                        	<div class="arches-signin-btn">
+                            	<button class="btn btn-primary btn-lg btn-block" type="submit">{% trans "Sign In" %}</button>
+                        	</div>
+                    	</div>
+						<div class="row" style="padding-top:10px; margin: -20px 0px 5px 0px;">
+							<div style="{% if not auth_failed %}display:none;{% endif %}" id="login-failed-alert" class="alert alert-danger fade in" role="alert">
+								<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">{% trans "Close" %}</span></button>
+								<h4>{% trans "Login failed" %}</h4>
+								<span>{% trans "Invalid username and/or password." %}</span>
+							</div>
+						</div>
+					</form>
+					<div class="row account-management">
+					<!-- <a href="arches_password_reminder.html" class="col-xs-5 btn btn-link mar-rgt" style="color:#515152;">{% trans "Forgot password ?" %}</a> -->
+						<a href="{% url 'password_reset' %}" class="btn btn-link account-link">{% trans "Forgot password?" %}</a></div><br>
+					<div class="row account-management">
+						<a href="{% url 'signup' %}" class="btn btn-link account-link" target="_blank">{% trans "Self-register for Public Access" %}</a>
+						<a href='http://eamena.web.ox.ac.uk/database-registration-form' class="btn btn-link account-link" target="_blank">{% trans "Apply for Researcher Access" %}</a>
+					</div>
+				</div>
+			</div>
+				<!--RIGHT TEXT BOX-->
+        <div class="" style="align:right; color:black; font-size=14px; width:450px">
+                <br><br><br><br>
+				<p class="double" align="justify" style="padding: 0px 15px 0px 15px">
+				<br>
+				{% trans "Many of the sites in the database are previously unrecorded, having been discovered through the use of remote sensing techniques, which provides the primary tool for new survey work conducted by the EAMENA and MarEA projects. The database also includes sites which have already been recorded or published in various sources and have been digitised for inclusion in the database. With all of these data brought together into a single system, the EAMENA database provides a significant new tool for cultural heritage management and archaeological research."%} <br>
+				<br>
+				{% trans "Access to the database requires registration, with three main categories of users: General Public, Academic Researchers, and Editing/Management Users. The core of the database is Open Access, but certain data are of a sensitive nature and therefore only available to selected users. We welcome initiatives for research collaboration."%} </p>
+		</div>
+		
+		<!--<div class="panel-footer" style="color:black; font-size=14">
+				
+				<p align="justify" style="padding: 0px 7px 0px 7px">
+				{% trans "Welcome to the Endangered Archaeology of the Middle East and North Africa (EAMENA) database. The database is populated with archaeological sites documented by the EAMENA project, supported since 2015 by Arcadia, a charitable fund of Lisbet Rausing and Peter Baldwin, and from 2017 with additional support from the British Council’s Cultural Protection Fund (CPF). The project is led by the University of Oxford in partnership with the Universities of Leicester and Durham; it also works very closely with the Maritime Endangered Archaeology project (MarEA), based in Southampton and Ulster Universities, whose data is entered and held in the same database."%} </p>
+				
+				<p align="justify" style="padding: 0px 7px 0px 7px">
+				{% trans "The initial impetus for the EAMENA project was in recognition of the global threats to cultural heritage. However, the database is not restricted to sites that are directly under threat. Rather, the purpose of the database is to record all sites within the areas in which we work because it is only once sites have been documented that they can be protected. In order to monitor potential threats, assess the priority of individual sites and decide where to focus resources for preservation and protection, heritage authorities must know what archaeological resources exist and where they are located."%} </p>
+
+				<p align="justify" style="padding: 0px 7px 0px 7px">
+				{% trans "Many of the sites in the database are previously unrecorded, having been discovered through the use of remote sensing techniques, which provides the primary tool for new survey work conducted by the EAMENA and MarEA projects. The database also includes sites which have already been recorded or published in various sources and have been digitised for inclusion in the database. With all of these data brought together into a single system, the EAMENA database provides a significant new tool for cultural heritage management and archaeological research."%} </p>
+
+				<p align="justify" style="padding: 0px 7px 0px 7px"> 
+				{% trans "Access to the database requires registration, with three main categories of users: General Public, Academic Researchers, and Editing/Management Users. The core of the database is Open Access, but certain data are of a sensitive nature and therefore only available to selected users. We welcome initiatives for research collaboration."%} </p>
+			</div> -->
+		</div>
+	</div>
+</div>
+
+{% endblock body %}
