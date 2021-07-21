@@ -14,3 +14,4 @@ eamena/node_modules
 Procfile
 eamena/management/commands/addusers.py
 eamena/__pycache__
+exports
