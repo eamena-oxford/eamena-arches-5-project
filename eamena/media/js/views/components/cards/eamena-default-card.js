@@ -69,6 +69,11 @@ define([
         }
 
         this.dirty = function(arg)
+        {
+            return this.isformdirty(arg);
+        }
+
+        this.isformdirty = function(arg)
 	{
             var index = arg();
             var valueindex = self.uimapping[index];

@@ -387,7 +387,7 @@
                         <div class="install-buttons">
 
                             <button class="btn btn-shim btn-labeled btn-lg fa fa-plus" data-bind="click: function() { self.saveValue($index); };, css: {disabled: (!card.isWritable && !self.preview), 'btn-mint': card.isWritable }">{% trans 'Add'  %}</button>
-<!-- ko if: self.dirty($index) -->
+<!-- ko if: self.isformdirty($index) -->
 	                    <button class="btn btn-shim btn-danger btn-labeled btn-lg fa fa-times" data-bind="click: function() { self.clearInput($index); } ">{% trans 'Cancel edit' %}</button>
 <!-- /ko -->
 
